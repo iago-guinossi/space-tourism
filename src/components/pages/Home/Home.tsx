@@ -50,6 +50,16 @@ const ButtonExplorer = styled.button`
     background-color: #FFFFFF;
     border-radius: 100%;
     margin-right: 165px;
+    &:hover{
+        background-color: #FFFFFF;
+    };
+    &:hover::before{
+        position: absolute;
+        width:450px;
+        height:450px;
+        background-color: #FFFFFF;
+        opacity:0.1;
+    }
 `
 const Link = styled.a`
     text-decoration: none;
