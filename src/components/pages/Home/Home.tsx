@@ -1,38 +1,14 @@
 import styled from "styled-components";
-
-const Container = styled.div`
-  width: 100%;
-  height: 100%;
-  background-image: url("src/assets/home/background-home-desktop.jpg");
-  margin-top: -136px;
-  box-sizing: border-box;
-  padding-bottom: 131px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-`;
+import { ContainerBackgroundImage } from "../../uiComponents/ContainerBackgroundImage";
+import { Link } from "../../uiComponents/Link";
+import { SubTittle } from "../../uiComponents/SubTittle";
+import { Text } from "../../uiComponents/Text";
 
 const Tittle = styled.span`
   font-family: "Bellefair", serif;
   font-size: 150px;
   color: #ffffff;
   line-height: 171.9px;
-`;
-
-const SubTittle = styled.span`
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
-  color: rgba(208, 214, 249, 1);
-  line-height: 33.6px;
-  letter-spacing: 4.72px;
-`;
-
-const Text = styled.span`
-  font-family: 'Barlow', sans-serif;
-  font-size: 18px;
-  color:rgba(208, 214, 249, 1);
-  line-height: 32px;
-;
 `;
 
 const TextContainer = styled.div`
@@ -61,17 +37,17 @@ const ButtonExplorer = styled.button`
         opacity:0.1;
     }
 `
-const Link = styled.a`
-    text-decoration: none;
+const LinkExplore = styled(Link)`
     font-family: "Bellefair", serif;
     font-size: 32px;
     line-height: 36.67px;
     letter-spacing: 2px;
+    color:rgba(11, 13, 23, 1);
 `
 
 export function Home() {
   return (
-    <Container>
+    <ContainerBackgroundImage url={"src/assets/home/background-home-desktop.jpg"}>
       <TextContainer>
         <SubTittle>SO, YOU WANT TO TRAVEL TO</SubTittle>
         <Tittle>SPACE</Tittle>
@@ -82,7 +58,7 @@ export function Home() {
           experience!
         </Text>
       </TextContainer>
-      <ButtonExplorer><Link>EXPLORE</Link></ButtonExplorer>
-    </Container>
+      <ButtonExplorer><LinkExplore>EXPLORE</LinkExplore></ButtonExplorer>
+    </ContainerBackgroundImage>
   );
 }
