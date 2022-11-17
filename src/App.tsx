@@ -5,8 +5,8 @@ import { Home } from './components/pages/Home'
 const Container = styled.div`
   width: 1440px;
   height: 900px;
-  background-color:cyan;
   display:block;
+  position: relative;
 `
 
 function App() {
