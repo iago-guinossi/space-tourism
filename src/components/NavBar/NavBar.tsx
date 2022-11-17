@@ -1,72 +1,80 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-const ContainerNavegation = styled.div`
-    width: 1385px;
-    height: 96px;
-    margin: 0 0 0 auto ;
-    background-color: red;
-    display:flex;
-    align-items: center;
-    position: relative;
-`
+const SubContainerNavegation = styled.div`
+  width: 1385px;
+  height: 96px;
+  margin: 0 0 0 auto;
+  display: flex;
+  align-items: center;
+`;
 
 const ContainerTransparentNavegation = styled.div`
-margin-left: auto;
-    width: 830px;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
-const ContainerButtonNavegation = styled.div`
-    justify-content: space-around;
-`
+  margin-left: auto;
+  width: 830px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 const Button = styled.button`
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
-    letter-spacing: 2.7px;
-    background-color: transparent;
-    border: none;
-    height: 100%;
-    &:hover{
-        box-sizing: border-box;
-        border-bottom: solid 5px rgba(255, 255, 255, 0.5);
-        border-top: solid 5px transparent;
-
-    }
-    &:active{
-        box-sizing: border-box;
-        border-bottom: solid 5px #FFFFFF;
-        border-top: solid 5px transparent;
-    }
-`
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  margin: 0 24px;
+  &:hover {
+    box-sizing: border-box;
+    border-bottom: solid 5px rgba(255, 255, 255, 0.5);
+    border-top: solid 5px transparent;
+  }
+  &:active {
+    box-sizing: border-box;
+    border-bottom: solid 5px #ffffff;
+    border-top: solid 5px transparent;
+  }
+`;
 
 const Logo = styled.img`
-width:48px;
-height: 48px;
-`
+  width: 48px;
+  height: 48px;
+`;
 
 const Rectangle = styled.div`
-position: absolute;
-width: 473px;
-height: 1px;
-margin-left: 111px;
-background-color: #FFFFFF;
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  margin-left: 111px;
+  background-color: #ffffff;
+`;
+
+const Link = styled.a`
+    text-decoration: none;
+    color: #FFFFFF;
 `
 
-export function NavBar(){
-    return(
-        <ContainerNavegation>
-            <Logo src="src/assets/logo.svg"/>
-            <Rectangle/>
-            <ContainerTransparentNavegation>
-                <Button><b>00</b> HOME</Button>
-                <Button><b>01</b> DESTINATION</Button>
-                <Button><b>02</b> CREW</Button>
-                <Button><b>03</b> TECHNOLOGY</Button>
-            </ContainerTransparentNavegation>
-        </ContainerNavegation>
-    )
+export function NavBar() {
+  return (
+    <SubContainerNavegation>
+      <Logo src="src/assets/logo.svg" />
+      <Rectangle />
+      <ContainerTransparentNavegation>
+        <Button>
+          <Link href="/"><b>00</b> HOME</Link>
+        </Button>
+        <Button>
+          <Link href="/"><b>01</b> DESTINATION</Link>
+        </Button>
+        <Button>
+        <Link href="/"><b>02</b> CREW</Link>
+        </Button>
+        <Button>
+        <Link href="/"><b>03</b> TECHNOLOGY </Link>
+        </Button>
+      </ContainerTransparentNavegation>
+    </SubContainerNavegation>
+  );
 }
