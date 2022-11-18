@@ -33,10 +33,10 @@ const Rectangle = styled.div`
 const MiscText = styled.div`
   display: flex;
   flex-direction: column;
-  width: 143px;
+  width: 153px;
   height: 61px;
   justify-content: space-between;
-  margin-right: 79px;
+  margin-right: 68px;
 `;
 
 const MiscContainer = styled.div`
@@ -45,19 +45,18 @@ const MiscContainer = styled.div`
   flex-direction: row;
 `;
 
-export function Moon() {
+export function Mars() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/destination/image-moon.png" />
+      <PlanetImg src="/destination/image-mars.png" />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
-          MOON
+          MARS
         </Tittle>
         <Text marginTop={14}>
-          See our planet as you’ve never seen it before. A perfect relaxing trip
-          away to help regain perspective and come back refreshed. While you’re
-          there, take in some history by visiting the Luna 2 and Apollo 11
-          landing sites.
+          Don’t forget to pack your hiking boots. You’ll need them to tackle
+          Olympus Mons, the tallest planetary mountain in our solar system. It’s
+          two and a half times the size of Everest!
         </Text>
         <Rectangle />
         <MiscContainer>
@@ -66,7 +65,7 @@ export function Moon() {
               AVG. DISTANCE
             </SubTittle>
             <Tittle fontSize={28} lineHeight={32.09} marginTop={0}>
-              384,400 KM
+              225 MIL. KM
             </Tittle>
           </MiscText>
           <MiscText>
@@ -74,7 +73,7 @@ export function Moon() {
               EST. TRAVEL TIME
             </SubTittle>
             <Tittle fontSize={28} lineHeight={32.09} marginTop={0}>
-              3 DAYS
+              9 MONTHS
             </Tittle>
           </MiscText>
         </MiscContainer>

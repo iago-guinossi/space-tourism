@@ -94,13 +94,13 @@ export function Destination() {
                 <Link to={"moon"}>MOON </Link>
               </ButtonPlanet>
               <ButtonPlanet>
-                <Link to={"/destination"}>MARS</Link>
+                <Link to={"mars"}>MARS</Link>
               </ButtonPlanet>
               <ButtonPlanet>
-                <Link to={"/destination"}>EUROPA</Link>
+                <Link to={"europa"}>EUROPA</Link>
               </ButtonPlanet>
               <ButtonPlanet>
-                <Link to={"/destination"}>TITAN</Link>
+                <Link to={"titan"}>TITAN</Link>
               </ButtonPlanet>
             </NavContainer>
 

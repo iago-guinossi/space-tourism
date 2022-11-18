@@ -4,6 +4,9 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/pages/Home";
 import { Destination } from "./components/pages/Destination";
 import { Moon } from "./components/pages/Destination/Moon";
+import { Mars } from "./components/pages/Destination/Mars";
+import { Europa } from "./components/pages/Destination/Europa";
+import { Titan } from "./components/pages/Destination/Titan";
 const Container = styled.div`
   width: 1440px;
   height: 900px;
@@ -18,7 +21,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="destination" element={<Destination />}>
-          <Route path="moon" element={<Moon />}></Route>
+          <Route path="moon" element={<Moon />}/>
+          <Route path="mars" element={<Mars />}/>
+          <Route path="europa" element={<Europa />}/>
+          <Route path="titan" element={<Titan />}/>
         </Route>
       </Routes>
     </Container>

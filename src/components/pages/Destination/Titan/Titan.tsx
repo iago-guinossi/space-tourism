@@ -33,10 +33,10 @@ const Rectangle = styled.div`
 const MiscText = styled.div`
   display: flex;
   flex-direction: column;
-  width: 143px;
+  width: 135px;
   height: 61px;
   justify-content: space-between;
-  margin-right: 79px;
+  margin-right: 86px;
 `;
 
 const MiscContainer = styled.div`
@@ -45,19 +45,18 @@ const MiscContainer = styled.div`
   flex-direction: row;
 `;
 
-export function Moon() {
+export function Titan() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/destination/image-moon.png" />
+      <PlanetImg src="/destination/image-titan.png" />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
-          MOON
+          TITAN
         </Tittle>
         <Text marginTop={14}>
-          See our planet as you’ve never seen it before. A perfect relaxing trip
-          away to help regain perspective and come back refreshed. While you’re
-          there, take in some history by visiting the Luna 2 and Apollo 11
-          landing sites.
+          The only moon known to have a dense atmosphere other than Earth, Titan
+          is a home away from home (just a few hundred degrees colder!). As a
+          bonus, you get striking views of the Rings of Saturn.
         </Text>
         <Rectangle />
         <MiscContainer>
@@ -66,7 +65,7 @@ export function Moon() {
               AVG. DISTANCE
             </SubTittle>
             <Tittle fontSize={28} lineHeight={32.09} marginTop={0}>
-              384,400 KM
+              1.6 BIL. KM
             </Tittle>
           </MiscText>
           <MiscText>
@@ -74,7 +73,7 @@ export function Moon() {
               EST. TRAVEL TIME
             </SubTittle>
             <Tittle fontSize={28} lineHeight={32.09} marginTop={0}>
-              3 DAYS
+              7 YEARS
             </Tittle>
           </MiscText>
         </MiscContainer>
