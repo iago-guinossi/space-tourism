@@ -33,10 +33,10 @@ const Rectangle = styled.div`
 const MiscText = styled.div`
   display: flex;
   flex-direction: column;
-  width: 135px;
+  width: 136px;
   height: 61px;
   justify-content: space-between;
-  margin-right: 86px;
+  margin-right: 85px;
 `;
 
 const MiscContainer = styled.div`

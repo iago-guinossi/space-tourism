@@ -57,7 +57,7 @@ export function Home() {
         </Text>
       </TextContainer>
       <ButtonExplorer>
-        <LinkExplore to={"destination"}>EXPLORE</LinkExplore>
+        <LinkExplore to={"destination/moon"}>EXPLORE</LinkExplore>
       </ButtonExplorer>
     </ContainerBackgroundImage>
   );

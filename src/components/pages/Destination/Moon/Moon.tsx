@@ -36,7 +36,7 @@ const MiscText = styled.div`
   width: 143px;
   height: 61px;
   justify-content: space-between;
-  margin-right: 79px;
+  margin-right: 78px;
 `;
 
 const MiscContainer = styled.div`
