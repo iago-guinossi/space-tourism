@@ -39,19 +39,27 @@ const Rectangle = styled.div`
 export function NavBar() {
   return (
     <SubContainerNavegation>
-      <Logo src="src/assets/logo.svg" />
+      <Logo src="/assets/logo.svg" />
       <ContainerTransparentNavegation>
         <Button>
-          <Link href="/"><b>00</b> HOME</Link>
+          <Link to={"/"}>
+            <b>00</b> HOME
+          </Link>
         </Button>
         <Button>
-          <Link href="/destination"><b>01</b> DESTINATION</Link>
+          <Link to={"destination/moon"}>
+            <b>01</b> DESTINATION
+          </Link>
         </Button>
         <Button>
-        <Link href="/"><b>02</b> CREW</Link>
+          <Link to={"/"}>
+            <b>02</b> CREW
+          </Link>
         </Button>
         <Button>
-        <Link href="/"><b>03</b> TECHNOLOGY </Link>
+          <Link to={"/"}>
+            <b>03</b> TECHNOLOGY{" "}
+          </Link>
         </Button>
       </ContainerTransparentNavegation>
       <Rectangle />

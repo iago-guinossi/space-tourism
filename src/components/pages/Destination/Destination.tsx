@@ -1,11 +1,10 @@
+import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../../uiComponents/Button";
 import { ContainerBackgroundImage } from "../../uiComponents/ContainerBackgroundImage";
 import { Link } from "../../uiComponents/Link";
 import { SubTittle } from "../../uiComponents/SubTittle";
 import { SubTittleNumber } from "../../uiComponents/SubTittleNumber";
-import { Text } from "../../uiComponents/Text";
-import { Tittle } from "../../uiComponents/Tittle";
 
 const Container = styled.div`
   display: flex;
@@ -82,7 +81,7 @@ flex-direction: row;
 export function Destination() {
   return (
     <ContainerBackgroundImage
-      url={"src/assets/destination/background-destination-desktop.jpg"}
+      url={"/destination/background-destination-desktop.jpg"}
     >
       <Container>
         <DestinationContainer>
@@ -92,53 +91,21 @@ export function Destination() {
         </SubTittleContainer>
             <NavContainer>
               <ButtonPlanet>
-                <Link>MOON </Link>
+                <Link to={"moon"}>MOON </Link>
               </ButtonPlanet>
               <ButtonPlanet>
-                <Link>MARS</Link>
+                <Link to={"/destination"}>MARS</Link>
               </ButtonPlanet>
               <ButtonPlanet>
-                <Link>EUROPA</Link>
+                <Link to={"/destination"}>EUROPA</Link>
               </ButtonPlanet>
               <ButtonPlanet>
-                <Link>TITAN</Link>
+                <Link to={"/destination"}>TITAN</Link>
               </ButtonPlanet>
             </NavContainer>
 
         </DestinationContainer>
-        <ConteudoContainer>
-          <PlanetImg src="src/assets/destination/image-moon.png" />
-          <PlanetContainer>
-            <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
-              MOON
-            </Tittle>
-            <Text marginTop={14}>
-              See our planet as you’ve never seen it before. A perfect relaxing
-              trip away to help regain perspective and come back refreshed.
-              While you’re there, take in some history by visiting the Luna 2
-              and Apollo 11 landing sites.
-            </Text>
-            <Rectangle/>
-            <MiscContainer>
-                <MiscText>
-                <SubTittle fontSize={14} lineHeight={16.8} letterSpacing={2.36}>
-                    AVG. DISTANCE
-                </SubTittle>
-                <Tittle fontSize={28} lineHeight={32.09} marginTop={0}>
-                    384,400 KM
-                </Tittle>
-                </MiscText>
-                <MiscText>
-                <SubTittle fontSize={14} lineHeight={16.8} letterSpacing={2.36}>
-                    EST. TRAVEL TIME
-                </SubTittle>
-                <Tittle fontSize={28} lineHeight={32.09} marginTop={0}>
-                    3 DAYS
-                </Tittle>
-                </MiscText>
-            </MiscContainer>
-          </PlanetContainer>
-        </ConteudoContainer>
+        <Outlet/>
       </Container>
     </ContainerBackgroundImage>
   );

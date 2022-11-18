@@ -42,7 +42,7 @@ const LinkExplore = styled(Link)`
 export function Home() {
   return (
     <ContainerBackgroundImage
-      url={"src/assets/home/background-home-desktop.jpg"}
+      url={"/home/background-home-desktop.jpg"}
     >
       <TextContainer>
         <SubTittle fontSize={28} lineHeight={33.6} letterSpacing={4.72}>SO, YOU WANT TO TRAVEL TO</SubTittle>
@@ -57,7 +57,7 @@ export function Home() {
         </Text>
       </TextContainer>
       <ButtonExplorer>
-        <LinkExplore>EXPLORE</LinkExplore>
+        <LinkExplore to={"destination"}>EXPLORE</LinkExplore>
       </ButtonExplorer>
     </ContainerBackgroundImage>
   );
