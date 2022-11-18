@@ -4,6 +4,7 @@ import { SubTittle } from "../../uiComponents/SubTittle";
 import { SubTittleNumber } from "../../uiComponents/SubTittleNumber";
 import { Text } from "../../uiComponents/Text";
 import { Tittle } from "../../uiComponents/Tittle";
+import { Capsule } from "./Capsule";
 import { Spaceport } from "./Spaceport";
 import { Vehicle } from "./Vehicle";
 
@@ -93,7 +94,7 @@ export function Technology() {
               <NumberButton>3</NumberButton>
             </RoundedButton>
           </ButtonContainer>
-            <Spaceport/>
+            <Capsule/>
         </ConteudoContainer>
       </MainContainer>
     </ContainerBackgroundImage>
