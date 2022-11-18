@@ -20,13 +20,6 @@ const SubTittleContainer = styled.div`
   margin-right: 283.5px;
 `;
 
-const PlanetImg = styled.img`
-  width: 445px;
-  height: 445px;
-  margin-left: 230px;
-  margin-right: 157px;
-`;
-
 const NavContainer = styled.div`
   width: 304.5px;
   height: 34px;
@@ -37,41 +30,6 @@ const ButtonPlanet = styled(Button)`
   margin: 0 18px 0 0;
   height: 34px; ;
 `;
-
-const PlanetContainer = styled.div`
-  width: 445px;
-  height: 472px;
-  display: flex;
-  flex-direction: column;
-`;
-
-const ConteudoContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
-
-const Rectangle = styled.div`
-  width: 100%;
-  height: 1px;
-  background-color: #ffffff;
-  opacity: 0.25;
-  margin-top:54px;
-`;
-
-const MiscText = styled.div`
-display: flex;
-flex-direction: column;
-width: 143px;
-height: 61px;
-justify-content: space-between;
-margin-right: 79px;
-`
-
-const MiscContainer = styled.div`
-margin-top: 28px;
-display: flex;
-flex-direction: row;
-`
 
 const DestinationContainer = styled.div`
 display: flex;
