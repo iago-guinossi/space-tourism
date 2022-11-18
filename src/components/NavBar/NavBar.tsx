@@ -57,7 +57,7 @@ export function NavBar() {
           </Link>
         </Button>
         <Button>
-          <Link to={"/"}>
+          <Link to={"technology"}>
             <b>03</b> TECHNOLOGY{" "}
           </Link>
         </Button>

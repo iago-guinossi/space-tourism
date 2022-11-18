@@ -7,6 +7,7 @@ import { Moon } from "./components/pages/Destination/Moon";
 import { Mars } from "./components/pages/Destination/Mars";
 import { Europa } from "./components/pages/Destination/Europa";
 import { Titan } from "./components/pages/Destination/Titan";
+import { Technology } from "./components/pages/Technology";
 const Container = styled.div`
   width: 1440px;
   height: 900px;
@@ -26,6 +27,7 @@ function App() {
           <Route path="europa" element={<Europa />}/>
           <Route path="titan" element={<Titan />}/>
         </Route>
+        <Route path="technology" element={<Technology/>}/>
       </Routes>
     </Container>
   );
