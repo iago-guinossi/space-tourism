@@ -52,7 +52,7 @@ export function NavBar() {
           </Link>
         </Button>
         <Button>
-          <Link to={"/"}>
+          <Link to={"crew"}>
             <b>02</b> CREW
           </Link>
         </Button>

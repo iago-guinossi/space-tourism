@@ -8,6 +8,7 @@ import { Mars } from "./components/pages/Destination/Mars";
 import { Europa } from "./components/pages/Destination/Europa";
 import { Titan } from "./components/pages/Destination/Titan";
 import { Technology } from "./components/pages/Technology";
+import { Crew } from "./components/pages/Crew";
 const Container = styled.div`
   width: 1440px;
   height: 900px;
@@ -22,12 +23,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="destination" element={<Destination />}>
-          <Route path="moon" element={<Moon />}/>
-          <Route path="mars" element={<Mars />}/>
-          <Route path="europa" element={<Europa />}/>
-          <Route path="titan" element={<Titan />}/>
+          <Route path="moon" element={<Moon />} />
+          <Route path="mars" element={<Mars />} />
+          <Route path="europa" element={<Europa />} />
+          <Route path="titan" element={<Titan />} />
         </Route>
-        <Route path="technology" element={<Technology/>}/>
+        <Route path="crew" element={<Crew />} />
+        <Route path="technology" element={<Technology />} />
       </Routes>
     </Container>
   );
