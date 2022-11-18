@@ -4,6 +4,7 @@ import { SubTittle } from "../../uiComponents/SubTittle";
 import { SubTittleNumber } from "../../uiComponents/SubTittleNumber";
 import { Text } from "../../uiComponents/Text";
 import { Tittle } from "../../uiComponents/Tittle";
+import { Vehicle } from "./Vehicle";
 
 const SubTittleContainer = styled.div`
   display: flex;
@@ -91,24 +92,7 @@ export function Technology() {
               <NumberButton>3</NumberButton>
             </RoundedButton>
           </ButtonContainer>
-          <TextContainer>
-            <SubTittle fontSize={16} lineHeight={19.2} letterSpacing={2.7}>
-              THE TERMINOLOGY…
-            </SubTittle>
-            <Tittle fontSize={56} lineHeight={64.18} marginTop={11}>
-              LAUNCH VEHICLE
-            </Tittle>
-            <SubTextContainer>
-            <Text marginTop={0}>
-              A launch vehicle or carrier rocket is a rocket-propelled vehicle
-              used to carry a payload from Earth's surface to space, usually to
-              Earth orbit or beyond. Our WEB-X carrier rocket is the most
-              powerful in operation. Standing 150 metres tall, it's quite an
-              awe-inspiring sight on the launch pad!
-            </Text>
-            </SubTextContainer>
-          </TextContainer>
-          <Img src="/technology/image-launch-vehicle-portrait.jpg"/>
+            <Vehicle/>
         </ConteudoContainer>
       </MainContainer>
     </ContainerBackgroundImage>
