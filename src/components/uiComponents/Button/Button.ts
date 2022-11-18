@@ -10,12 +10,12 @@ export const Button = styled.button`
   margin: 0 24px;
   &:hover {
     box-sizing: border-box;
-    border-bottom: solid 5px rgba(255, 255, 255, 0.5);
-    border-top: solid 5px transparent;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.5);
+    border-top: solid 3px transparent;
   }
   &:active {
     box-sizing: border-box;
-    border-bottom: solid 5px #ffffff;
-    border-top: solid 5px transparent;
+    border-bottom: solid 3px #ffffff;
+    border-top: solid 3px transparent;
   }
 `;

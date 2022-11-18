@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
-export const SubTittle = styled.span`
+type SubtittleProps ={
+  fontSize: number;
+  lineHeight: number;
+  letterSpacing: number;
+}
+
+export const SubTittle = styled.span<SubtittleProps>`
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
+  font-size: ${({fontSize})=> fontSize}px;
   color: rgba(208, 214, 249, 1);
-  line-height: 33.6px;
-  letter-spacing: 4.72px;
+  line-height: ${({lineHeight})=> lineHeight}px;
+  letter-spacing: ${({letterSpacing})=> letterSpacing}px;
 `;
