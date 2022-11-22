@@ -4,7 +4,10 @@ import { SubTittle } from "../../uiComponents/SubTittle";
 import { SubTittleNumber } from "../../uiComponents/SubTittleNumber";
 import { Text } from "../../uiComponents/Text";
 import { Tittle } from "../../uiComponents/Tittle";
+import { Anousheh } from "./Anousheh";
 import { Douglas } from "./Douglas";
+import { Mark } from "./Mark";
+import { Victor } from "./Victor";
 
 const NavContainer = styled.div`
   width: 1107px;
@@ -43,7 +46,7 @@ export function Crew() {
             MEET YOUR CREW
           </SubTittle>
         </SubTittleContainer>
-        <Douglas/>
+        <Anousheh/>
         <ButtonContainer>
             <RoundedButton/>
             <RoundedButton/>
