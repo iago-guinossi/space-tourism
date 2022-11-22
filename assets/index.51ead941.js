@@ -121,7 +121,7 @@ Error generating stack: `+o.message+`
   margin-left: 111px;
   background-color: #ffffff;
   opacity: 0.25;
-`;function d0(){return I(a0,{children:[g(c0,{src:"/assets/logo.svg"}),I(s0,{children:[g(hr,{children:I(_t,{to:"/space-tourism/",children:[g("b",{children:"00"})," HOME"]})}),g(hr,{children:I(_t,{to:"destination/moon",children:[g("b",{children:"01"})," DESTINATION"]})}),g(hr,{children:I(_t,{to:"crew",children:[g("b",{children:"02"})," CREW"]})}),g(hr,{children:I(_t,{to:"technology",children:[g("b",{children:"03"})," TECHNOLOGY"," "]})})]}),g(f0,{})]})}const Do=C.div`
+`;function d0(){return I(a0,{children:[g(c0,{src:"/assets/logo.svg"}),I(s0,{children:[g(hr,{children:I(_t,{to:"/space-tourism/",children:[g("b",{children:"00"})," HOME"]})}),g(hr,{children:I(_t,{to:"/space-tourism/destination/moon",children:[g("b",{children:"01"})," DESTINATION"]})}),g(hr,{children:I(_t,{to:"/space-tourism/crew",children:[g("b",{children:"02"})," CREW"]})}),g(hr,{children:I(_t,{to:"/space-tourism/technology",children:[g("b",{children:"03"})," TECHNOLOGY"," "]})})]}),g(f0,{})]})}const Do=C.div`
   width: 100%;
   height: 100%;
   background-image: url(${({url:e})=>e});
@@ -179,7 +179,7 @@ Error generating stack: `+o.message+`
   line-height: 36.67px;
   letter-spacing: 2px;
   color: rgba(11, 13, 23, 1);
-`;function g0(){return I(Do,{url:"/home/background-home-desktop.jpg",children:[I(p0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(h0,{children:g(m0,{to:"destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
+`;function g0(){return I(Do,{url:"/home/background-home-desktop.jpg",children:[I(p0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(h0,{children:g(m0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
 font-weight:700;
 margin-right: 28px;
 mix-blend-mode: normal;
@@ -516,4 +516,4 @@ flex-direction: row;
   height: 900px;
   display: block;
   position: relative;
-`;function Bv(){return I(Hv,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(g0,{})}),I(xt,{path:"destination",element:g(x0,{}),children:[g(xt,{path:"moon",element:g(_0,{})}),g(xt,{path:"mars",element:g(L0,{})}),g(xt,{path:"europa",element:g(F0,{})}),g(xt,{path:"titan",element:g(Q0,{})})]}),g(xt,{path:"crew",element:g(Uv,{})}),g(xt,{path:"technology",element:g(av,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(Bv,{})})}));
+`;function Bv(){return I(Hv,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(g0,{})}),I(xt,{path:"/space-tourism/destination",element:g(x0,{}),children:[g(xt,{path:"moon",element:g(_0,{})}),g(xt,{path:"mars",element:g(L0,{})}),g(xt,{path:"europa",element:g(F0,{})}),g(xt,{path:"titan",element:g(Q0,{})})]}),g(xt,{path:"/space-tourism/crew",element:g(Uv,{})}),g(xt,{path:"/space-tourism/technology",element:g(av,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(Bv,{})})}));
