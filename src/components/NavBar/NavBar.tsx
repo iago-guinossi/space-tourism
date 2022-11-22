@@ -47,17 +47,17 @@ export function NavBar() {
           </Link>
         </Button>
         <Button>
-          <Link to={"destination/moon"}>
+          <Link to={"/space-tourism/destination/moon"}>
             <b>01</b> DESTINATION
           </Link>
         </Button>
         <Button>
-          <Link to={"crew"}>
+          <Link to={"/space-tourism/crew"}>
             <b>02</b> CREW
           </Link>
         </Button>
         <Button>
-          <Link to={"technology"}>
+          <Link to={"/space-tourism/technology"}>
             <b>03</b> TECHNOLOGY{" "}
           </Link>
         </Button>

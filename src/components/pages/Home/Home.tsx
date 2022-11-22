@@ -60,7 +60,7 @@ export function Home() {
         </Text>
       </TextContainer>
       <ButtonExplorer>
-        <LinkExplore to={"destination/moon"}>EXPLORE</LinkExplore>
+        <LinkExplore to={"/space-tourism/destination/moon"}>EXPLORE</LinkExplore>
       </ButtonExplorer>
     </ContainerBackgroundImage>
   );

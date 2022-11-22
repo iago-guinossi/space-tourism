@@ -22,14 +22,14 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/space-tourism/" element={<Home />} />
-        <Route path="destination" element={<Destination />}>
+        <Route path="/space-tourism/destination" element={<Destination />}>
           <Route path="moon" element={<Moon />} />
           <Route path="mars" element={<Mars />} />
           <Route path="europa" element={<Europa />} />
           <Route path="titan" element={<Titan />} />
         </Route>
-        <Route path="crew" element={<Crew />} />
-        <Route path="technology" element={<Technology />} />
+        <Route path="/space-tourism/crew" element={<Crew />} />
+        <Route path="/space-tourism/technology" element={<Technology />} />
       </Routes>
     </Container>
   );

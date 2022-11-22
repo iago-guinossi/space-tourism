@@ -58,16 +58,6 @@ export function Crew() {
     if (state === 4) return <Anousheh />;
   }
 
-  // function slide(){
-  //   setTimeout(() => {
-  //     setState(state === 4 ? 1 : state + 1);
-  //     debugger
-  //   }, 2000);
-  // }
-  // useEffect(() => {
-  //   slide()
-  // }, []);
-
   return (
     <ContainerBackgroundImage url="/crew/background-crew-desktop.jpg">
       <NavContainer>
