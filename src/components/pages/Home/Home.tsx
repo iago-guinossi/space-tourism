@@ -12,6 +12,7 @@ const TextContainer = styled.div`
   width: 450px;
   height: 382px;
   margin-left: 165px;
+  padding-top: 387px;
 `;
 
 const ButtonExplorer = styled.button`
@@ -19,7 +20,9 @@ const ButtonExplorer = styled.button`
   width: 274px;
   background-color: #ffffff;
   border-radius: 100%;
-  margin-right: 165px;
+  margin-left: 386px;
+  margin-bottom: 131px;;
+  align-self: flex-end;
   &:hover {
     background-color: #ffffff;
   }
