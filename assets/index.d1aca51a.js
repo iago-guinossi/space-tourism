@@ -95,14 +95,14 @@ Error generating stack: `+o.message+`
 `,_t=C(ag)`
     text-decoration: none;
     color: #FFFFFF;
-`,a0=C.div`
+`,a0="/space-tourism/assets/logo.43040818.svg",s0=C.div`
   width: 1385px;
   height: 96px;
   margin: 0 0 0 auto;
   display: flex;
   align-items: center;
   margin-top: 40px;
-`,s0=C.div`
+`,c0=C.div`
   margin-left: auto;
   width: 830px;
   height: 100%;
@@ -111,17 +111,17 @@ Error generating stack: `+o.message+`
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(40.7742px);
-`,c0=C.img`
+`,f0=C.img`
   width: 48px;
   height: 48px;
-`,f0=C.div`
+`,d0=C.div`
   position: absolute;
   width: 473px;
   height: 1px;
   margin-left: 111px;
   background-color: #ffffff;
   opacity: 0.25;
-`;function d0(){return I(a0,{children:[g(c0,{src:"/assets/logo.svg"}),I(s0,{children:[g(hr,{children:I(_t,{to:"/space-tourism/",children:[g("b",{children:"00"})," HOME"]})}),g(hr,{children:I(_t,{to:"/space-tourism/destination/moon",children:[g("b",{children:"01"})," DESTINATION"]})}),g(hr,{children:I(_t,{to:"/space-tourism/crew",children:[g("b",{children:"02"})," CREW"]})}),g(hr,{children:I(_t,{to:"/space-tourism/technology",children:[g("b",{children:"03"})," TECHNOLOGY"," "]})})]}),g(f0,{})]})}const Do=C.div`
+`;function p0(){return I(s0,{children:[g(f0,{src:a0}),I(c0,{children:[g(hr,{children:I(_t,{to:"/space-tourism/",children:[g("b",{children:"00"})," HOME"]})}),g(hr,{children:I(_t,{to:"/space-tourism/destination/moon",children:[g("b",{children:"01"})," DESTINATION"]})}),g(hr,{children:I(_t,{to:"/space-tourism/crew",children:[g("b",{children:"02"})," CREW"]})}),g(hr,{children:I(_t,{to:"/space-tourism/technology",children:[g("b",{children:"03"})," TECHNOLOGY"," "]})})]}),g(d0,{})]})}const Do=C.div`
   width: 100%;
   height: 100%;
   background-image: url(${({url:e})=>e});
@@ -147,7 +147,7 @@ Error generating stack: `+o.message+`
   color: #ffffff;
   line-height: ${({lineHeight:e})=>e}px;
   margin-top: ${({marginTop:e})=>e}px;
-`,p0="/space-tourism/assets/background-home-desktop.c0071b13.jpg",h0=C.div`
+`,h0="/space-tourism/assets/background-home-desktop.c0071b13.jpg",m0=C.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -155,7 +155,7 @@ Error generating stack: `+o.message+`
   height: 382px;
   margin-left: 165px;
   padding-top: 387px;
-`,m0=C.button`
+`,g0=C.button`
   height: 274px;
   width: 274px;
   background-color: #ffffff;
@@ -173,51 +173,51 @@ Error generating stack: `+o.message+`
     background-color: #ffffff;
     opacity: 0.1;
   }
-`,g0=C(_t)`
+`,v0=C(_t)`
   font-family: "Bellefair", serif;
   font-size: 32px;
   line-height: 36.67px;
   letter-spacing: 2px;
   color: rgba(11, 13, 23, 1);
-`;function v0(){return I(Do,{url:p0,children:[I(h0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(m0,{children:g(g0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
+`;function y0(){return I(Do,{url:h0,children:[I(m0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(g0,{children:g(v0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
 font-weight:700;
 margin-right: 28px;
 mix-blend-mode: normal;
 opacity: 0.25;
-`,y0=C.div`
+`,w0="/space-tourism/assets/background-destination-desktop.47c4fc03.jpg",S0=C.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-`,w0=C.div`
+`,x0=C.div`
   margin-top: 212px;
   margin-left: 166.5px;
   margin-bottom: 97px;
   margin-right: 283.5px;
-`,S0=C.div`
+`,k0=C.div`
   width: 304.5px;
   height: 34px;
   align-self: flex-end;
 `,yi=C(hr)`
   margin: 0 18px 0 0;
   height: 34px; ;
-`,x0=C.div`
+`,C0=C.div`
 display: flex;
 flex-direction: row;
-`;function k0(){return g(Do,{url:"/public/destination/background-destination-desktop.jpg",children:I(y0,{children:[I(x0,{children:[I(w0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(S0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const C0=C.div`
+`;function E0(){return g(Do,{url:w0,children:I(S0,{children:[I(C0,{children:[I(x0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(k0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const P0="/space-tourism/assets/image-moon.65df7a68.png",T0=C.div`
   display: flex;
   flex-direction: row;
-`,E0=C.img`
+`,_0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,P0=C.div`
+`,N0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,T0=C.div`
+`,R0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -230,24 +230,24 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 78px;
-`,_0=C.div`
+`,z0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function N0(){return I(C0,{children:[g(E0,{src:"/public/destination/image-moon.png"}),I(P0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MOON"}),g(lt,{marginTop:14,children:"See our planet as you\u2019ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\u2019re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."}),g(T0,{}),I(_0,{children:[I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"384,400 KM"})]}),I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 DAYS"})]})]})]})]})}const R0=C.div`
+`;function $0(){return I(T0,{children:[g(_0,{src:P0}),I(N0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MOON"}),g(lt,{marginTop:14,children:"See our planet as you\u2019ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\u2019re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."}),g(R0,{}),I(z0,{children:[I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"384,400 KM"})]}),I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 DAYS"})]})]})]})]})}const O0="/space-tourism/assets/image-mars.aa6f283f.png",L0=C.div`
   display: flex;
   flex-direction: row;
-`,z0=C.img`
+`,A0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,$0=C.div`
+`,I0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,O0=C.div`
+`,M0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -260,24 +260,24 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 68px;
-`,L0=C.div`
+`,D0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function A0(){return I(R0,{children:[g(z0,{src:"/public/destination/image-mars.png"}),I($0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MARS"}),g(lt,{marginTop:14,children:"Don\u2019t forget to pack your hiking boots. You\u2019ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It\u2019s two and a half times the size of Everest!"}),g(O0,{}),I(L0,{children:[I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"225 MIL. KM"})]}),I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"9 MONTHS"})]})]})]})]})}const I0=C.div`
+`;function j0(){return I(L0,{children:[g(A0,{src:O0}),I(I0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MARS"}),g(lt,{marginTop:14,children:"Don\u2019t forget to pack your hiking boots. You\u2019ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It\u2019s two and a half times the size of Everest!"}),g(M0,{}),I(D0,{children:[I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"225 MIL. KM"})]}),I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"9 MONTHS"})]})]})]})]})}const F0="/space-tourism/assets/image-europa.c9182c76.png",U0=C.div`
   display: flex;
   flex-direction: row;
-`,M0=C.img`
+`,H0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,D0=C.div`
+`,B0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,j0=C.div`
+`,V0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -290,24 +290,24 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 65px;
-`,F0=C.div`
+`,W0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function U0(){return I(I0,{children:[g(M0,{src:"/public/destination/image-europa.png"}),I(D0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"EUROPA"}),g(lt,{marginTop:14,children:"The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover\u2019s dream. With an icy surface, it\u2019s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."}),g(j0,{}),I(F0,{children:[I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"628 MIL. KM"})]}),I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 YEARS"})]})]})]})]})}const H0=C.div`
+`;function Q0(){return I(U0,{children:[g(H0,{src:F0}),I(B0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"EUROPA"}),g(lt,{marginTop:14,children:"The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover\u2019s dream. With an icy surface, it\u2019s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."}),g(V0,{}),I(W0,{children:[I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"628 MIL. KM"})]}),I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 YEARS"})]})]})]})]})}const Y0="/space-tourism/assets/image-titan.c9e71a76.png",G0=C.div`
   display: flex;
   flex-direction: row;
-`,B0=C.img`
+`,K0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,V0=C.div`
+`,X0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,W0=C.div`
+`,Z0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -320,175 +320,175 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 85px;
-`,Q0=C.div`
+`,J0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function Y0(){return I(H0,{children:[g(B0,{src:"/public/destination/image-titan.png"}),I(V0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"TITAN"}),g(lt,{marginTop:14,children:"The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn."}),g(W0,{}),I(Q0,{children:[I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"1.6 BIL. KM"})]}),I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"7 YEARS"})]})]})]})]})}const G0=C.div`
+`;function q0(){return I(G0,{children:[g(K0,{src:Y0}),I(X0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"TITAN"}),g(lt,{marginTop:14,children:"The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn."}),g(Z0,{}),I(J0,{children:[I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"1.6 BIL. KM"})]}),I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"7 YEARS"})]})]})]})]})}const b0="/space-tourism/assets/image-space-capsule-portrait.c67ebf87.jpg",e1=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   height: 303px;
   margin-right: 130px;
-`,K0=C.div`
+`,t1=C.div`
   margin-top: 17px;
   width: 444px;
-`,X0=C.img`
+`,n1=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function Z0(){return I(Co,{children:[I(G0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACE CAPSULE"}),g(K0,{children:g(lt,{marginTop:0,children:"A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."})})]}),g(X0,{src:"\\technology\\image-space-capsule-portrait.jpg"})]})}const J0=C.div`
+`;function r1(){return I(Co,{children:[I(e1,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACE CAPSULE"}),g(t1,{children:g(lt,{marginTop:0,children:"A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."})})]}),g(n1,{src:b0})]})}const i1="/space-tourism/assets/image-spaceport-portrait.8f5c81cf.jpg",o1=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   height: 303px;
   margin-right: 130px;
-`,q0=C.div`
+`,l1=C.div`
   margin-top: 17px;
   width: 444px;
-`,b0=C.img`
+`,u1=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function e1(){return I(Co,{children:[I(J0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACEPORT"}),g(q0,{children:g(lt,{marginTop:0,children:"A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth\u2019s rotation for launch."})})]}),g(b0,{src:"\\technology\\image-spaceport-portrait.jpg"})]})}const t1=C.div`
+`;function a1(){return I(Co,{children:[I(o1,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACEPORT"}),g(l1,{children:g(lt,{marginTop:0,children:"A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth\u2019s rotation for launch."})})]}),g(u1,{src:i1})]})}const s1="/space-tourism/assets/image-launch-vehicle-portrait.7165cee7.jpg",c1=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   margin-right: 130px;
-`,n1=C.div`
+`,f1=C.div`
   margin-top: 17px;
   width: 444px;
-`,r1=C.img`
+`,d1=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function i1(){return I(Co,{children:[I(t1,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"LAUNCH VEHICLE"}),g(n1,{children:g(lt,{marginTop:0,children:"A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"})})]}),g(r1,{src:"/technology/image-launch-vehicle-portrait.jpg"})]})}const o1=C.div`
+`;function p1(){return I(Co,{children:[I(c1,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"LAUNCH VEHICLE"}),g(f1,{children:g(lt,{marginTop:0,children:"A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"})})]}),g(d1,{src:s1})]})}const h1="/space-tourism/assets/background-technology-desktop.457659c3.jpg",m1=C.div`
   display: flex;
   margin-top: 212px;
-`,l1=C.div`
+`,g1=C.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-`,u1=C.div`
+`,v1=C.div`
   display: flex;
   flex-direction: column;
   margin-right: 80px;
   margin-bottom: -32px;
-  `,gl=C.span`
+`,gl=C.span`
   font-family: "Bellefair";
   font-size: 32px;
   line-height: 37px;
   letter-spacing: 2px;
-  `,a1=C.div`
+`,y1=C.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  `,vl=C.button`
-    width: 80px;
-    height: 80px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 100%;
-    background-color: ${({number:e,state:t})=>e===t?"#FFFFFF":"transparent"};
-    color: ${({number:e,state:t})=>e===t?"rgba(11, 13, 23, 1)":"#FFFFFF"};
-    margin-bottom: 32px;
-    padding-left: 11px;
-    padding-top: 3px;
-    &:hover{
-        border: 1px solid rgba(255, 255, 255, 1)
-    }
-  `;function s1(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(i1,{});if(e===2)return g(e1,{});if(e===3)return g(Z0,{})}return g(Do,{url:"/technology/background-technology-desktop.jpg",children:I(a1,{children:[I(o1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"03"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SPACE LAUNCH 101"})]}),I(l1,{children:[I(u1,{children:[g(vl,{number:1,state:e,onClick:()=>n(1),children:g(gl,{children:"1"})}),g(vl,{number:2,state:e,onClick:()=>n(2),children:g(gl,{children:"2"})}),g(vl,{number:3,state:e,onClick:()=>n(3),children:g(gl,{children:"3"})})]}),r()]})]})})}const c1=C.div`
+`,vl=C.button`
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+  background-color: ${({number:e,state:t})=>e===t?"#FFFFFF":"transparent"};
+  color: ${({number:e,state:t})=>e===t?"rgba(11, 13, 23, 1)":"#FFFFFF"};
+  margin-bottom: 32px;
+  padding-left: 11px;
+  padding-top: 3px;
+  &:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+`;function w1(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(p1,{});if(e===2)return g(a1,{});if(e===3)return g(r1,{})}return g(Do,{url:h1,children:I(y1,{children:[I(m1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"03"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SPACE LAUNCH 101"})]}),I(g1,{children:[I(v1,{children:[g(vl,{number:1,state:e,onClick:()=>n(1),children:g(gl,{children:"1"})}),g(vl,{number:2,state:e,onClick:()=>n(2),children:g(gl,{children:"2"})}),g(vl,{number:3,state:e,onClick:()=>n(3),children:g(gl,{children:"3"})})]}),r()]})]})})}const S1="/space-tourism/assets/image-anousheh-ansari.1c67226f.png",x1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,f1=C.div`
+`,k1=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,d1=C(ie)`
+`,C1=C(ie)`
   opacity: 0.5;
-`,p1=C(lt)`
+`,E1=C(lt)`
   width: 444px;
-`,h1=C.div`
+`,P1=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,m1=C.img`
+`,T1=C.img`
   position: absolute;
   margin-top: 52px;
-`;function g1(){return I(c1,{children:[I(f1,{children:[g(d1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(p1,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(h1,{children:g(m1,{src:"\\crew\\image-anousheh-ansari.png"})})]})}const v1=C.div`
+`;function _1(){return I(x1,{children:[I(k1,{children:[g(C1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(E1,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(P1,{children:g(T1,{src:S1})})]})}const N1="/space-tourism/assets/image-douglas-hurley.eefed9f8.png",R1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,y1=C.div`
+`,z1=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,w1=C(ie)`
+`,$1=C(ie)`
   opacity: 0.5;
-`,S1=C(lt)`
+`,O1=C(lt)`
   width: 444px;
-`,x1=C.div`
+`,L1=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,k1=C.img`
+`,A1=C.img`
   position: absolute;
   margin-top: -46px;
-`;function C1(){return I(v1,{children:[I(y1,{children:[g(w1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(S1,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(x1,{children:g(k1,{src:"\\crew\\image-douglas-hurley.png"})})]})}const E1=C.div`
+`;function I1(){return I(R1,{children:[I(z1,{children:[g($1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(O1,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(L1,{children:g(A1,{src:N1})})]})}const M1="/space-tourism/assets/image-mark-shuttleworth.b3fe36f7.png",D1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,P1=C.div`
+`,j1=C.div`
   width: 614px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,T1=C(ie)`
+`,F1=C(ie)`
   opacity: 0.5;
-`,_1=C(lt)`
+`,U1=C(lt)`
   width: 444px;
-`,N1=C.div`
+`,H1=C.div`
   width: 605px;
   flex-shrink: 0;
   margin-left: 33.5px;
   box-sizing: border-box;
-`,R1=C.img`
+`,B1=C.img`
   position: absolute;
   margin-top: 14px;
-`;function z1(){return I(E1,{children:[I(P1,{children:[g(T1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(_1,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(N1,{children:g(R1,{src:"\\crew\\image-mark-shuttleworth.png"})})]})}const $1=C.div`
+`;function V1(){return I(D1,{children:[I(j1,{children:[g(F1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(U1,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(H1,{children:g(B1,{src:M1})})]})}const W1="/space-tourism/assets/image-victor-glover.dfbb7281.png",Q1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,O1=C.div`
+`,Y1=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,L1=C(ie)`
+`,G1=C(ie)`
   opacity: 0.5;
-`,A1=C(lt)`
+`,K1=C(lt)`
   width: 444px;
-`,I1=C.div`
+`,X1=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,M1=C.img`
+`,Z1=C.img`
   position: absolute;
   margin-top: 9px;
-`;function D1(){return I($1,{children:[I(O1,{children:[g(L1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(A1,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(I1,{children:g(M1,{src:"\\crew\\image-victor-glover.png"})})]})}const j1=C.div`
+`;function J1(){return I(Q1,{children:[I(Y1,{children:[g(G1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(K1,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(X1,{children:g(Z1,{src:W1})})]})}const q1="/space-tourism/assets/background-crew-desktop.b41ac858.jpg",b1=C.div`
   width: 1107px;
   height: 594px;
   display: flex;
@@ -496,7 +496,7 @@ flex-direction: row;
   margin: 0 auto 0 auto;
   justify-content: space-between;
   padding-top: 212px;
-`,F1=C.div``,wi=C.button`
+`,ev=C.div``,wi=C.button`
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -506,14 +506,14 @@ flex-direction: row;
     background-color: #ffffff;
     opacity: 0.5;
   }
-`,U1=C.div`
+`,tv=C.div`
   width: 132px;
   height: 15px;
   display: flex;
   justify-content: space-between;
-`;function H1(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(C1,{});if(e===2)return g(z1,{});if(e===3)return g(D1,{});if(e===4)return g(g1,{})}return g(Do,{url:"/crew/background-crew-desktop.jpg",children:I(j1,{children:[I(F1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(U1,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const B1=C.div`
+`;function nv(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(I1,{});if(e===2)return g(V1,{});if(e===3)return g(J1,{});if(e===4)return g(_1,{})}return g(Do,{url:q1,children:I(b1,{children:[I(ev,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(tv,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const rv=C.div`
   width: 1440px;
   height: 900px;
   display: block;
   position: relative;
-`;function V1(){return I(B1,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(v0,{})}),I(xt,{path:"/space-tourism/destination",element:g(k0,{}),children:[g(xt,{path:"moon",element:g(N0,{})}),g(xt,{path:"mars",element:g(A0,{})}),g(xt,{path:"europa",element:g(U0,{})}),g(xt,{path:"titan",element:g(Y0,{})})]}),g(xt,{path:"/space-tourism/crew",element:g(H1,{})}),g(xt,{path:"/space-tourism/technology",element:g(s1,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(V1,{})})}));
+`;function iv(){return I(rv,{children:[g(p0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(y0,{})}),I(xt,{path:"/space-tourism/destination",element:g(E0,{}),children:[g(xt,{path:"moon",element:g($0,{})}),g(xt,{path:"mars",element:g(j0,{})}),g(xt,{path:"europa",element:g(Q0,{})}),g(xt,{path:"titan",element:g(q0,{})})]}),g(xt,{path:"/space-tourism/crew",element:g(nv,{})}),g(xt,{path:"/space-tourism/technology",element:g(w1,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(iv,{})})}));
