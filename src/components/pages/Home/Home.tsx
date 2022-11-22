@@ -4,6 +4,7 @@ import { Link } from "../../uiComponents/Link";
 import { SubTittle } from "../../uiComponents/SubTittle";
 import { Text } from "../../uiComponents/Text";
 import { Tittle } from "../../uiComponents/Tittle";
+import backgrounddesktophome from '../../../assets/home/background-home-desktop.jpg'
 
 const TextContainer = styled.div`
   display: flex;
@@ -45,7 +46,7 @@ const LinkExplore = styled(Link)`
 export function Home() {
   return (
     <ContainerBackgroundImage
-      url={"/public/home/background-home-desktop.jpg"}
+      url={backgrounddesktophome}
     >
       <TextContainer>
         <SubTittle fontSize={28} lineHeight={33.6} letterSpacing={4.72}>SO, YOU WANT TO TRAVEL TO</SubTittle>
