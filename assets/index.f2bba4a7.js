@@ -121,7 +121,7 @@ Error generating stack: `+o.message+`
   margin-left: 111px;
   background-color: #ffffff;
   opacity: 0.25;
-`;function d0(){return I(a0,{children:[g(c0,{src:"/assets/logo.svg"}),I(s0,{children:[g(hr,{children:I(_t,{to:"/",children:[g("b",{children:"00"})," HOME"]})}),g(hr,{children:I(_t,{to:"destination/moon",children:[g("b",{children:"01"})," DESTINATION"]})}),g(hr,{children:I(_t,{to:"crew",children:[g("b",{children:"02"})," CREW"]})}),g(hr,{children:I(_t,{to:"technology",children:[g("b",{children:"03"})," TECHNOLOGY"," "]})})]}),g(f0,{})]})}const Do=C.div`
+`;function d0(){return I(a0,{children:[g(c0,{src:"/assets/logo.svg"}),I(s0,{children:[g(hr,{children:I(_t,{to:"/space-tourism/",children:[g("b",{children:"00"})," HOME"]})}),g(hr,{children:I(_t,{to:"destination/moon",children:[g("b",{children:"01"})," DESTINATION"]})}),g(hr,{children:I(_t,{to:"crew",children:[g("b",{children:"02"})," CREW"]})}),g(hr,{children:I(_t,{to:"technology",children:[g("b",{children:"03"})," TECHNOLOGY"," "]})})]}),g(f0,{})]})}const Do=C.div`
   width: 100%;
   height: 100%;
   background-image: url(${({url:e})=>e});
@@ -350,27 +350,27 @@ flex-direction: row;
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function b0(){return I(Co,{children:[I(Z0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACEPORT"}),g(J0,{children:g(lt,{marginTop:0,children:"A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth\u2019s rotation for launch."})})]}),g(q0,{src:"\\technology\\image-spaceport-portrait.jpg"})]})}const e1=C.div`
+`;function b0(){return I(Co,{children:[I(Z0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACEPORT"}),g(J0,{children:g(lt,{marginTop:0,children:"A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth\u2019s rotation for launch."})})]}),g(q0,{src:"\\technology\\image-spaceport-portrait.jpg"})]})}const ev=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   margin-right: 130px;
-`,t1=C.div`
+`,tv=C.div`
   margin-top: 17px;
   width: 444px;
-`,n1=C.img`
+`,nv=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function r1(){return I(Co,{children:[I(e1,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"LAUNCH VEHICLE"}),g(t1,{children:g(lt,{marginTop:0,children:"A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"})})]}),g(n1,{src:"/technology/image-launch-vehicle-portrait.jpg"})]})}const i1=C.div`
+`;function rv(){return I(Co,{children:[I(ev,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"LAUNCH VEHICLE"}),g(tv,{children:g(lt,{marginTop:0,children:"A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"})})]}),g(nv,{src:"/technology/image-launch-vehicle-portrait.jpg"})]})}const iv=C.div`
   display: flex;
   margin-top: 212px;
-`,o1=C.div`
+`,ov=C.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-`,l1=C.div`
+`,lv=C.div`
   display: flex;
   flex-direction: column;
   margin-right: 80px;
@@ -380,7 +380,7 @@ flex-direction: row;
   font-size: 32px;
   line-height: 37px;
   letter-spacing: 2px;
-  `,u1=C.div`
+  `,uv=C.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -397,98 +397,98 @@ flex-direction: row;
     &:hover{
         border: 1px solid rgba(255, 255, 255, 1)
     }
-  `;function a1(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(r1,{});if(e===2)return g(b0,{});if(e===3)return g(X0,{})}return g(Do,{url:"/technology/background-technology-desktop.jpg",children:I(u1,{children:[I(i1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"03"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SPACE LAUNCH 101"})]}),I(o1,{children:[I(l1,{children:[g(vl,{number:1,state:e,onClick:()=>n(1),children:g(gl,{children:"1"})}),g(vl,{number:2,state:e,onClick:()=>n(2),children:g(gl,{children:"2"})}),g(vl,{number:3,state:e,onClick:()=>n(3),children:g(gl,{children:"3"})})]}),r()]})]})})}const s1=C.div`
+  `;function av(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(rv,{});if(e===2)return g(b0,{});if(e===3)return g(X0,{})}return g(Do,{url:"/technology/background-technology-desktop.jpg",children:I(uv,{children:[I(iv,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"03"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SPACE LAUNCH 101"})]}),I(ov,{children:[I(lv,{children:[g(vl,{number:1,state:e,onClick:()=>n(1),children:g(gl,{children:"1"})}),g(vl,{number:2,state:e,onClick:()=>n(2),children:g(gl,{children:"2"})}),g(vl,{number:3,state:e,onClick:()=>n(3),children:g(gl,{children:"3"})})]}),r()]})]})})}const sv=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,c1=C.div`
+`,cv=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,f1=C(ie)`
+`,fv=C(ie)`
   opacity: 0.5;
-`,d1=C(lt)`
+`,dv=C(lt)`
   width: 444px;
-`,p1=C.div`
+`,pv=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,h1=C.img`
+`,hv=C.img`
   position: absolute;
   margin-top: 52px;
-`;function m1(){return I(s1,{children:[I(c1,{children:[g(f1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(d1,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(p1,{children:g(h1,{src:"\\crew\\image-anousheh-ansari.png"})})]})}const g1=C.div`
+`;function mv(){return I(sv,{children:[I(cv,{children:[g(fv,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(dv,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(pv,{children:g(hv,{src:"\\crew\\image-anousheh-ansari.png"})})]})}const gv=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,v1=C.div`
+`,vv=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,y1=C(ie)`
+`,yv=C(ie)`
   opacity: 0.5;
-`,w1=C(lt)`
+`,wv=C(lt)`
   width: 444px;
-`,S1=C.div`
+`,Sv=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,x1=C.img`
+`,xv=C.img`
   position: absolute;
   margin-top: -46px;
-`;function k1(){return I(g1,{children:[I(v1,{children:[g(y1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(w1,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(S1,{children:g(x1,{src:"\\crew\\image-douglas-hurley.png"})})]})}const C1=C.div`
+`;function kv(){return I(gv,{children:[I(vv,{children:[g(yv,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(wv,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(Sv,{children:g(xv,{src:"\\crew\\image-douglas-hurley.png"})})]})}const Cv=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,E1=C.div`
+`,Ev=C.div`
   width: 614px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,P1=C(ie)`
+`,Pv=C(ie)`
   opacity: 0.5;
-`,T1=C(lt)`
+`,Tv=C(lt)`
   width: 444px;
-`,_1=C.div`
+`,_v=C.div`
   width: 605px;
   flex-shrink: 0;
   margin-left: 33.5px;
   box-sizing: border-box;
-`,N1=C.img`
+`,Nv=C.img`
   position: absolute;
   margin-top: 14px;
-`;function R1(){return I(C1,{children:[I(E1,{children:[g(P1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(T1,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(_1,{children:g(N1,{src:"\\crew\\image-mark-shuttleworth.png"})})]})}const z1=C.div`
+`;function Rv(){return I(Cv,{children:[I(Ev,{children:[g(Pv,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(Tv,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(_v,{children:g(Nv,{src:"\\crew\\image-mark-shuttleworth.png"})})]})}const zv=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,$1=C.div`
+`,$v=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,O1=C(ie)`
+`,Ov=C(ie)`
   opacity: 0.5;
-`,L1=C(lt)`
+`,Lv=C(lt)`
   width: 444px;
-`,A1=C.div`
+`,Av=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,I1=C.img`
+`,Iv=C.img`
   position: absolute;
   margin-top: 9px;
-`;function M1(){return I(z1,{children:[I($1,{children:[g(O1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(L1,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(A1,{children:g(I1,{src:"\\crew\\image-victor-glover.png"})})]})}const D1=C.div`
+`;function Mv(){return I(zv,{children:[I($v,{children:[g(Ov,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(Lv,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(Av,{children:g(Iv,{src:"\\crew\\image-victor-glover.png"})})]})}const Dv=C.div`
   width: 1107px;
   height: 594px;
   display: flex;
@@ -496,7 +496,7 @@ flex-direction: row;
   margin: 0 auto 0 auto;
   justify-content: space-between;
   padding-top: 212px;
-`,j1=C.div``,wi=C.button`
+`,jv=C.div``,wi=C.button`
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -506,14 +506,14 @@ flex-direction: row;
     background-color: #ffffff;
     opacity: 0.5;
   }
-`,F1=C.div`
+`,Fv=C.div`
   width: 132px;
   height: 15px;
   display: flex;
   justify-content: space-between;
-`;function U1(){const[e,t]=M.exports.useState(1);function n(o){t(o)}function r(){if(e===1)return g(k1,{});if(e===2)return g(R1,{});if(e===3)return g(M1,{});if(e===4)return g(m1,{})}function i(){setTimeout(()=>{t(e===4?1:e+1);debugger},2e3)}return M.exports.useEffect(()=>{i()},[]),g(Do,{url:"/crew/background-crew-desktop.jpg",children:I(D1,{children:[I(j1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(F1,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const H1=C.div`
+`;function Uv(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(kv,{});if(e===2)return g(Rv,{});if(e===3)return g(Mv,{});if(e===4)return g(mv,{})}return g(Do,{url:"/crew/background-crew-desktop.jpg",children:I(Dv,{children:[I(jv,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(Fv,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const Hv=C.div`
   width: 1440px;
   height: 900px;
   display: block;
   position: relative;
-`;function B1(){return I(H1,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/",element:g(g0,{})}),I(xt,{path:"destination",element:g(x0,{}),children:[g(xt,{path:"moon",element:g(_0,{})}),g(xt,{path:"mars",element:g(L0,{})}),g(xt,{path:"europa",element:g(F0,{})}),g(xt,{path:"titan",element:g(Q0,{})})]}),g(xt,{path:"crew",element:g(U1,{})}),g(xt,{path:"technology",element:g(a1,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(B1,{})})}));
+`;function Bv(){return I(Hv,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(g0,{})}),I(xt,{path:"destination",element:g(x0,{}),children:[g(xt,{path:"moon",element:g(_0,{})}),g(xt,{path:"mars",element:g(L0,{})}),g(xt,{path:"europa",element:g(F0,{})}),g(xt,{path:"titan",element:g(Q0,{})})]}),g(xt,{path:"crew",element:g(Uv,{})}),g(xt,{path:"technology",element:g(av,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(Bv,{})})}));
