@@ -2,14 +2,18 @@ import styled from "styled-components";
 import { ContainerBackgroundImage } from "../../uiComponents/ContainerBackgroundImage";
 import { SubTittle } from "../../uiComponents/SubTittle";
 import { SubTittleNumber } from "../../uiComponents/SubTittleNumber";
+import { Text } from "../../uiComponents/Text";
+import { Tittle } from "../../uiComponents/Tittle";
+import { Douglas } from "./Douglas";
 
 const NavContainer = styled.div`
   width: 1107px;
   height: 594px;
   display: flex;
   flex-direction: column;
-  margin: 212px auto 0 auto;
+  margin: 0 auto 0 auto;
   justify-content: space-between;
+  padding-top: 212px;
 `;
 const SubTittleContainer = styled.div``;
 
@@ -27,7 +31,6 @@ const ButtonContainer = styled.div`
     justify-content: space-between;
 `
 
-
 export function Crew() {
   return (
     <ContainerBackgroundImage url="/crew/background-crew-desktop.jpg">
@@ -40,6 +43,7 @@ export function Crew() {
             MEET YOUR CREW
           </SubTittle>
         </SubTittleContainer>
+        <Douglas/>
         <ButtonContainer>
             <RoundedButton/>
             <RoundedButton/>
