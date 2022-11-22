@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgMark from "../../../../assets/crew/image-mark-shuttleworth.png";
 
 const ContentContainer = styled.div`
   height: 100%;
@@ -53,7 +54,7 @@ export function Mark() {
         </CrewText>
       </TextContainer>
       <ImgContainer>
-        <CrewImg src="\crew\image-mark-shuttleworth.png" />
+        <CrewImg src={imgMark} />
       </ImgContainer>
     </ContentContainer>
   );

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SubTittle } from "../../../uiComponents/SubTittle";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgVehicle from "../../../../assets/technology/image-launch-vehicle-portrait.jpg";
 
 const TextContainer = styled.div`
   display: flex;
@@ -41,7 +42,7 @@ export function Vehicle() {
           </Text>
         </SubTextContainer>
       </TextContainer>
-      <Img src="/technology/image-launch-vehicle-portrait.jpg" />
+      <Img src={imgVehicle} />
     </>
   );
 }

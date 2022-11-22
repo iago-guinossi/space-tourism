@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SubTittle } from "../../../uiComponents/SubTittle";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgEuropa from '../../../../assets/destination/image-europa.png'
 
 const ConteudoContainer = styled.div`
   display: flex;
@@ -48,7 +49,7 @@ const MiscContainer = styled.div`
 export function Europa() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/public/destination/image-europa.png" />
+      <PlanetImg src={imgEuropa} />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
           EUROPA

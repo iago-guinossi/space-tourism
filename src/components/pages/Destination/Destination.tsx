@@ -5,6 +5,7 @@ import { ContainerBackgroundImage } from "../../uiComponents/ContainerBackground
 import { Link } from "../../uiComponents/Link";
 import { SubTittle } from "../../uiComponents/SubTittle";
 import { SubTittleNumber } from "../../uiComponents/SubTittleNumber";
+import imgDestinationDesktop from '../../../assets/destination/background-destination-desktop.jpg'
 
 const Container = styled.div`
   display: flex;
@@ -39,7 +40,7 @@ flex-direction: row;
 export function Destination() {
   return (
     <ContainerBackgroundImage
-      url={"/public/destination/background-destination-desktop.jpg"}
+      url={imgDestinationDesktop}
     >
       <Container>
         <DestinationContainer>

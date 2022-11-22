@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SubTittle } from "../../../uiComponents/SubTittle";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgCapsule from "../../../../assets/technology/image-space-capsule-portrait.jpg";
 
 const TextContainer = styled.div`
   display: flex;
@@ -42,7 +43,7 @@ export function Capsule() {
           </Text>
         </SubTextContainer>
       </TextContainer>
-      <Img src="\technology\image-space-capsule-portrait.jpg" />
+      <Img src={imgCapsule} />
     </>
   );
 }

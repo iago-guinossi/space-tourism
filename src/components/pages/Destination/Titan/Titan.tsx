@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SubTittle } from "../../../uiComponents/SubTittle";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgTitan from '../../../../assets/destination/image-titan.png'
 
 const ConteudoContainer = styled.div`
   display: flex;
@@ -48,7 +49,7 @@ const MiscContainer = styled.div`
 export function Titan() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/public/destination/image-titan.png" />
+      <PlanetImg src={imgTitan} />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
           TITAN

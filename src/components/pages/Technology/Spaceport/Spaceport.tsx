@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SubTittle } from "../../../uiComponents/SubTittle";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgSpaceport from "../../../../assets/technology/image-spaceport-portrait.jpg";
 
 const TextContainer = styled.div`
   display: flex;
@@ -42,7 +43,7 @@ export function Spaceport() {
           </Text>
         </SubTextContainer>
       </TextContainer>
-      <Img src="\technology\image-spaceport-portrait.jpg" />
+      <Img src={imgSpaceport} />
     </>
   );
 }

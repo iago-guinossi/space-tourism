@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgDouglas from "../../../../assets/crew/image-douglas-hurley.png";
 
 const ContentContainer = styled.div`
   height: 100%;
@@ -54,7 +55,7 @@ export function Douglas() {
         </CrewText>
       </TextContainer>
       <ImgContainer>
-        <CrewImg src="\crew\image-douglas-hurley.png" />
+        <CrewImg src={imgDouglas} />
       </ImgContainer>
     </ContentContainer>
   );

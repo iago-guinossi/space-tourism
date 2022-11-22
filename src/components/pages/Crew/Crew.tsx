@@ -7,6 +7,7 @@ import { Anousheh } from "./Anousheh";
 import { Douglas } from "./Douglas";
 import { Mark } from "./Mark";
 import { Victor } from "./Victor";
+import imgBackgroundDesktop from "../../../assets/crew/background-crew-desktop.jpg";
 
 type RoundedButtonProps = {
   number: number;
@@ -59,7 +60,7 @@ export function Crew() {
   }
 
   return (
-    <ContainerBackgroundImage url="/crew/background-crew-desktop.jpg">
+    <ContainerBackgroundImage url={imgBackgroundDesktop}>
       <NavContainer>
         <SubTittleContainer>
           <SubTittleNumber fontSize={28} lineHeight={33.6} letterSpacing={4.72}>

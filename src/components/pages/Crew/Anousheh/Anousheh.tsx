@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgAnousheh from "../../../../assets/crew/image-anousheh-ansari.png";
 
 const ContentContainer = styled.div`
   height: 100%;
@@ -55,7 +56,7 @@ export function Anousheh() {
         </CrewText>
       </TextContainer>
       <ImgContainer>
-        <CrewImg src="\crew\image-anousheh-ansari.png" />
+        <CrewImg src={imgAnousheh} />
       </ImgContainer>
     </ContentContainer>
   );

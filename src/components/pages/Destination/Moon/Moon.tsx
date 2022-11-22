@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SubTittle } from "../../../uiComponents/SubTittle";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgMoon from "../../../../assets/destination/image-moon.png";
 
 const ConteudoContainer = styled.div`
   display: flex;
@@ -48,7 +49,7 @@ const MiscContainer = styled.div`
 export function Moon() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/public/destination/image-moon.png" />
+      <PlanetImg src={imgMoon} />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
           MOON

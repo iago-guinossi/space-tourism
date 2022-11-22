@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../uiComponents/Button";
 import { Link } from "../uiComponents/Link";
+import imgLogo from '../../assets/logo.svg'
 
 const SubContainerNavegation = styled.div`
   width: 1385px;
@@ -39,7 +40,7 @@ const Rectangle = styled.div`
 export function NavBar() {
   return (
     <SubContainerNavegation>
-      <Logo src="/assets/logo.svg" />
+      <Logo src={imgLogo} />
       <ContainerTransparentNavegation>
         <Button>
           <Link to={"/space-tourism/"}>

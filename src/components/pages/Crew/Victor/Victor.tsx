@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Tittle } from "../../../uiComponents/Tittle";
 import { Text } from "../../../uiComponents/Text";
+import imgVicto from "../../../../assets/crew/image-victor-glover.png";
 
 const ContentContainer = styled.div`
   height: 100%;
@@ -55,7 +56,7 @@ export function Victor() {
         </CrewText>
       </TextContainer>
       <ImgContainer>
-        <CrewImg src="\crew\image-victor-glover.png" />
+        <CrewImg src={imgVicto} />
       </ImgContainer>
     </ContentContainer>
   );
