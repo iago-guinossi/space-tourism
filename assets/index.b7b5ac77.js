@@ -147,7 +147,7 @@ Error generating stack: `+o.message+`
   color: #ffffff;
   line-height: ${({lineHeight:e})=>e}px;
   margin-top: ${({marginTop:e})=>e}px;
-`,p0=C.div`
+`,p0="/space-tourism/assets/background-home-desktop.c0071b13.jpg",h0=C.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -155,7 +155,7 @@ Error generating stack: `+o.message+`
   height: 382px;
   margin-left: 165px;
   padding-top: 387px;
-`,h0=C.button`
+`,m0=C.button`
   height: 274px;
   width: 274px;
   background-color: #ffffff;
@@ -173,51 +173,51 @@ Error generating stack: `+o.message+`
     background-color: #ffffff;
     opacity: 0.1;
   }
-`,m0=C(_t)`
+`,g0=C(_t)`
   font-family: "Bellefair", serif;
   font-size: 32px;
   line-height: 36.67px;
   letter-spacing: 2px;
   color: rgba(11, 13, 23, 1);
-`;function g0(){return I(Do,{url:"/public/home/background-home-desktop.jpg",children:[I(p0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(h0,{children:g(m0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
+`;function v0(){return I(Do,{url:p0,children:[I(h0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(m0,{children:g(g0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
 font-weight:700;
 margin-right: 28px;
 mix-blend-mode: normal;
 opacity: 0.25;
-`,v0=C.div`
+`,y0=C.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-`,y0=C.div`
+`,w0=C.div`
   margin-top: 212px;
   margin-left: 166.5px;
   margin-bottom: 97px;
   margin-right: 283.5px;
-`,w0=C.div`
+`,S0=C.div`
   width: 304.5px;
   height: 34px;
   align-self: flex-end;
 `,yi=C(hr)`
   margin: 0 18px 0 0;
   height: 34px; ;
-`,S0=C.div`
+`,x0=C.div`
 display: flex;
 flex-direction: row;
-`;function x0(){return g(Do,{url:"/public/destination/background-destination-desktop.jpg",children:I(v0,{children:[I(S0,{children:[I(y0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(w0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const k0=C.div`
+`;function k0(){return g(Do,{url:"/public/destination/background-destination-desktop.jpg",children:I(y0,{children:[I(x0,{children:[I(w0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(S0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const C0=C.div`
   display: flex;
   flex-direction: row;
-`,C0=C.img`
+`,E0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,E0=C.div`
+`,P0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,P0=C.div`
+`,T0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -230,24 +230,24 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 78px;
-`,T0=C.div`
+`,_0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function _0(){return I(k0,{children:[g(C0,{src:"/public/destination/image-moon.png"}),I(E0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MOON"}),g(lt,{marginTop:14,children:"See our planet as you\u2019ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\u2019re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."}),g(P0,{}),I(T0,{children:[I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"384,400 KM"})]}),I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 DAYS"})]})]})]})]})}const N0=C.div`
+`;function N0(){return I(C0,{children:[g(E0,{src:"/public/destination/image-moon.png"}),I(P0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MOON"}),g(lt,{marginTop:14,children:"See our planet as you\u2019ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\u2019re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."}),g(T0,{}),I(_0,{children:[I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"384,400 KM"})]}),I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 DAYS"})]})]})]})]})}const R0=C.div`
   display: flex;
   flex-direction: row;
-`,R0=C.img`
+`,z0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,z0=C.div`
+`,$0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,$0=C.div`
+`,O0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -260,24 +260,24 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 68px;
-`,O0=C.div`
+`,L0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function L0(){return I(N0,{children:[g(R0,{src:"/public/destination/image-mars.png"}),I(z0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MARS"}),g(lt,{marginTop:14,children:"Don\u2019t forget to pack your hiking boots. You\u2019ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It\u2019s two and a half times the size of Everest!"}),g($0,{}),I(O0,{children:[I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"225 MIL. KM"})]}),I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"9 MONTHS"})]})]})]})]})}const A0=C.div`
+`;function A0(){return I(R0,{children:[g(z0,{src:"/public/destination/image-mars.png"}),I($0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MARS"}),g(lt,{marginTop:14,children:"Don\u2019t forget to pack your hiking boots. You\u2019ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It\u2019s two and a half times the size of Everest!"}),g(O0,{}),I(L0,{children:[I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"225 MIL. KM"})]}),I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"9 MONTHS"})]})]})]})]})}const I0=C.div`
   display: flex;
   flex-direction: row;
-`,I0=C.img`
+`,M0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,M0=C.div`
+`,D0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,D0=C.div`
+`,j0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -290,24 +290,24 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 65px;
-`,j0=C.div`
+`,F0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function F0(){return I(A0,{children:[g(I0,{src:"/public/destination/image-europa.png"}),I(M0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"EUROPA"}),g(lt,{marginTop:14,children:"The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover\u2019s dream. With an icy surface, it\u2019s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."}),g(D0,{}),I(j0,{children:[I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"628 MIL. KM"})]}),I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 YEARS"})]})]})]})]})}const U0=C.div`
+`;function U0(){return I(I0,{children:[g(M0,{src:"/public/destination/image-europa.png"}),I(D0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"EUROPA"}),g(lt,{marginTop:14,children:"The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover\u2019s dream. With an icy surface, it\u2019s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."}),g(j0,{}),I(F0,{children:[I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"628 MIL. KM"})]}),I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 YEARS"})]})]})]})]})}const H0=C.div`
   display: flex;
   flex-direction: row;
-`,H0=C.img`
+`,B0=C.img`
   width: 445px;
   height: 445px;
   margin-left: 230px;
   margin-right: 157px;
-`,B0=C.div`
+`,V0=C.div`
   width: 445px;
   height: 472px;
   display: flex;
   flex-direction: column;
-`,V0=C.div`
+`,W0=C.div`
   width: 100%;
   height: 1px;
   background-color: #ffffff;
@@ -320,57 +320,57 @@ flex-direction: row;
   height: 61px;
   justify-content: space-between;
   margin-right: 85px;
-`,W0=C.div`
+`,Q0=C.div`
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function Q0(){return I(U0,{children:[g(H0,{src:"/public/destination/image-titan.png"}),I(B0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"TITAN"}),g(lt,{marginTop:14,children:"The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn."}),g(V0,{}),I(W0,{children:[I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"1.6 BIL. KM"})]}),I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"7 YEARS"})]})]})]})]})}const Y0=C.div`
+`;function Y0(){return I(H0,{children:[g(B0,{src:"/public/destination/image-titan.png"}),I(V0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"TITAN"}),g(lt,{marginTop:14,children:"The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn."}),g(W0,{}),I(Q0,{children:[I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"1.6 BIL. KM"})]}),I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"7 YEARS"})]})]})]})]})}const G0=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   height: 303px;
   margin-right: 130px;
-`,G0=C.div`
+`,K0=C.div`
   margin-top: 17px;
   width: 444px;
-`,K0=C.img`
+`,X0=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function X0(){return I(Co,{children:[I(Y0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACE CAPSULE"}),g(G0,{children:g(lt,{marginTop:0,children:"A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."})})]}),g(K0,{src:"\\technology\\image-space-capsule-portrait.jpg"})]})}const Z0=C.div`
+`;function Z0(){return I(Co,{children:[I(G0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACE CAPSULE"}),g(K0,{children:g(lt,{marginTop:0,children:"A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."})})]}),g(X0,{src:"\\technology\\image-space-capsule-portrait.jpg"})]})}const J0=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   height: 303px;
   margin-right: 130px;
-`,J0=C.div`
+`,q0=C.div`
   margin-top: 17px;
   width: 444px;
-`,q0=C.img`
+`,b0=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function b0(){return I(Co,{children:[I(Z0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACEPORT"}),g(J0,{children:g(lt,{marginTop:0,children:"A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth\u2019s rotation for launch."})})]}),g(q0,{src:"\\technology\\image-spaceport-portrait.jpg"})]})}const ev=C.div`
+`;function e1(){return I(Co,{children:[I(J0,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"SPACEPORT"}),g(q0,{children:g(lt,{marginTop:0,children:"A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth\u2019s rotation for launch."})})]}),g(b0,{src:"\\technology\\image-spaceport-portrait.jpg"})]})}const t1=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
   margin-right: 130px;
-`,tv=C.div`
+`,n1=C.div`
   margin-top: 17px;
   width: 444px;
-`,nv=C.img`
+`,r1=C.img`
   width: 515px;
   height: 527px;
   margin-right: -164px;
-`;function rv(){return I(Co,{children:[I(ev,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"LAUNCH VEHICLE"}),g(tv,{children:g(lt,{marginTop:0,children:"A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"})})]}),g(nv,{src:"/technology/image-launch-vehicle-portrait.jpg"})]})}const iv=C.div`
+`;function i1(){return I(Co,{children:[I(t1,{children:[g(Ae,{fontSize:16,lineHeight:19.2,letterSpacing:2.7,children:"THE TERMINOLOGY\u2026"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:11,children:"LAUNCH VEHICLE"}),g(n1,{children:g(lt,{marginTop:0,children:"A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"})})]}),g(r1,{src:"/technology/image-launch-vehicle-portrait.jpg"})]})}const o1=C.div`
   display: flex;
   margin-top: 212px;
-`,ov=C.div`
+`,l1=C.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-`,lv=C.div`
+`,u1=C.div`
   display: flex;
   flex-direction: column;
   margin-right: 80px;
@@ -380,7 +380,7 @@ flex-direction: row;
   font-size: 32px;
   line-height: 37px;
   letter-spacing: 2px;
-  `,uv=C.div`
+  `,a1=C.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -397,98 +397,98 @@ flex-direction: row;
     &:hover{
         border: 1px solid rgba(255, 255, 255, 1)
     }
-  `;function av(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(rv,{});if(e===2)return g(b0,{});if(e===3)return g(X0,{})}return g(Do,{url:"/technology/background-technology-desktop.jpg",children:I(uv,{children:[I(iv,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"03"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SPACE LAUNCH 101"})]}),I(ov,{children:[I(lv,{children:[g(vl,{number:1,state:e,onClick:()=>n(1),children:g(gl,{children:"1"})}),g(vl,{number:2,state:e,onClick:()=>n(2),children:g(gl,{children:"2"})}),g(vl,{number:3,state:e,onClick:()=>n(3),children:g(gl,{children:"3"})})]}),r()]})]})})}const sv=C.div`
+  `;function s1(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(i1,{});if(e===2)return g(e1,{});if(e===3)return g(Z0,{})}return g(Do,{url:"/technology/background-technology-desktop.jpg",children:I(a1,{children:[I(o1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"03"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SPACE LAUNCH 101"})]}),I(l1,{children:[I(u1,{children:[g(vl,{number:1,state:e,onClick:()=>n(1),children:g(gl,{children:"1"})}),g(vl,{number:2,state:e,onClick:()=>n(2),children:g(gl,{children:"2"})}),g(vl,{number:3,state:e,onClick:()=>n(3),children:g(gl,{children:"3"})})]}),r()]})]})})}const c1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,cv=C.div`
+`,f1=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,fv=C(ie)`
+`,d1=C(ie)`
   opacity: 0.5;
-`,dv=C(lt)`
+`,p1=C(lt)`
   width: 444px;
-`,pv=C.div`
+`,h1=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,hv=C.img`
+`,m1=C.img`
   position: absolute;
   margin-top: 52px;
-`;function mv(){return I(sv,{children:[I(cv,{children:[g(fv,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(dv,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(pv,{children:g(hv,{src:"\\crew\\image-anousheh-ansari.png"})})]})}const gv=C.div`
+`;function g1(){return I(c1,{children:[I(f1,{children:[g(d1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(p1,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(h1,{children:g(m1,{src:"\\crew\\image-anousheh-ansari.png"})})]})}const v1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,vv=C.div`
+`,y1=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,yv=C(ie)`
+`,w1=C(ie)`
   opacity: 0.5;
-`,wv=C(lt)`
+`,S1=C(lt)`
   width: 444px;
-`,Sv=C.div`
+`,x1=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,xv=C.img`
+`,k1=C.img`
   position: absolute;
   margin-top: -46px;
-`;function kv(){return I(gv,{children:[I(vv,{children:[g(yv,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(wv,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(Sv,{children:g(xv,{src:"\\crew\\image-douglas-hurley.png"})})]})}const Cv=C.div`
+`;function C1(){return I(v1,{children:[I(y1,{children:[g(w1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(S1,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(x1,{children:g(k1,{src:"\\crew\\image-douglas-hurley.png"})})]})}const E1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,Ev=C.div`
+`,P1=C.div`
   width: 614px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,Pv=C(ie)`
+`,T1=C(ie)`
   opacity: 0.5;
-`,Tv=C(lt)`
+`,_1=C(lt)`
   width: 444px;
-`,_v=C.div`
+`,N1=C.div`
   width: 605px;
   flex-shrink: 0;
   margin-left: 33.5px;
   box-sizing: border-box;
-`,Nv=C.img`
+`,R1=C.img`
   position: absolute;
   margin-top: 14px;
-`;function Rv(){return I(Cv,{children:[I(Ev,{children:[g(Pv,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(Tv,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(_v,{children:g(Nv,{src:"\\crew\\image-mark-shuttleworth.png"})})]})}const zv=C.div`
+`;function z1(){return I(E1,{children:[I(P1,{children:[g(T1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(_1,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(N1,{children:g(R1,{src:"\\crew\\image-mark-shuttleworth.png"})})]})}const $1=C.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-`,$v=C.div`
+`,O1=C.div`
   width: 570px;
   display: flex;
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-`,Ov=C(ie)`
+`,L1=C(ie)`
   opacity: 0.5;
-`,Lv=C(lt)`
+`,A1=C(lt)`
   width: 444px;
-`,Av=C.div`
+`,I1=C.div`
   width: 605px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-`,Iv=C.img`
+`,M1=C.img`
   position: absolute;
   margin-top: 9px;
-`;function Mv(){return I(zv,{children:[I($v,{children:[g(Ov,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(Lv,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(Av,{children:g(Iv,{src:"\\crew\\image-victor-glover.png"})})]})}const Dv=C.div`
+`;function D1(){return I($1,{children:[I(O1,{children:[g(L1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(A1,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(I1,{children:g(M1,{src:"\\crew\\image-victor-glover.png"})})]})}const j1=C.div`
   width: 1107px;
   height: 594px;
   display: flex;
@@ -496,7 +496,7 @@ flex-direction: row;
   margin: 0 auto 0 auto;
   justify-content: space-between;
   padding-top: 212px;
-`,jv=C.div``,wi=C.button`
+`,F1=C.div``,wi=C.button`
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -506,14 +506,14 @@ flex-direction: row;
     background-color: #ffffff;
     opacity: 0.5;
   }
-`,Fv=C.div`
+`,U1=C.div`
   width: 132px;
   height: 15px;
   display: flex;
   justify-content: space-between;
-`;function Uv(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(kv,{});if(e===2)return g(Rv,{});if(e===3)return g(Mv,{});if(e===4)return g(mv,{})}return g(Do,{url:"/crew/background-crew-desktop.jpg",children:I(Dv,{children:[I(jv,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(Fv,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const Hv=C.div`
+`;function H1(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(C1,{});if(e===2)return g(z1,{});if(e===3)return g(D1,{});if(e===4)return g(g1,{})}return g(Do,{url:"/crew/background-crew-desktop.jpg",children:I(j1,{children:[I(F1,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(U1,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const B1=C.div`
   width: 1440px;
   height: 900px;
   display: block;
   position: relative;
-`;function Bv(){return I(Hv,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(g0,{})}),I(xt,{path:"/space-tourism/destination",element:g(x0,{}),children:[g(xt,{path:"moon",element:g(_0,{})}),g(xt,{path:"mars",element:g(L0,{})}),g(xt,{path:"europa",element:g(F0,{})}),g(xt,{path:"titan",element:g(Q0,{})})]}),g(xt,{path:"/space-tourism/crew",element:g(Uv,{})}),g(xt,{path:"/space-tourism/technology",element:g(av,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(Bv,{})})}));
+`;function V1(){return I(B1,{children:[g(d0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(v0,{})}),I(xt,{path:"/space-tourism/destination",element:g(k0,{}),children:[g(xt,{path:"moon",element:g(N0,{})}),g(xt,{path:"mars",element:g(A0,{})}),g(xt,{path:"europa",element:g(U0,{})}),g(xt,{path:"titan",element:g(Y0,{})})]}),g(xt,{path:"/space-tourism/crew",element:g(H1,{})}),g(xt,{path:"/space-tourism/technology",element:g(s1,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(V1,{})})}));
