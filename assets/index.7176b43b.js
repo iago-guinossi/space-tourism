@@ -179,7 +179,7 @@ Error generating stack: `+o.message+`
   line-height: 36.67px;
   letter-spacing: 2px;
   color: rgba(11, 13, 23, 1);
-`;function g0(){return I(Do,{url:"/home/background-home-desktop.jpg",children:[I(p0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(h0,{children:g(m0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
+`;function g0(){return I(Do,{url:"/public/home/background-home-desktop.jpg",children:[I(p0,{children:[g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"SO, YOU WANT TO TRAVEL TO"}),g(ie,{fontSize:150,lineHeight:171.9,marginTop:24,children:"SPACE"}),g(lt,{marginTop:24,children:"Let\u2019s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we\u2019ll give you a truly out of this world experience!"})]}),g(h0,{children:g(m0,{to:"/space-tourism/destination/moon",children:"EXPLORE"})})]})}const Ea=C(Ae)`
 font-weight:700;
 margin-right: 28px;
 mix-blend-mode: normal;
@@ -204,7 +204,7 @@ opacity: 0.25;
 `,S0=C.div`
 display: flex;
 flex-direction: row;
-`;function x0(){return g(Do,{url:"/destination/background-destination-desktop.jpg",children:I(v0,{children:[I(S0,{children:[I(y0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(w0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const k0=C.div`
+`;function x0(){return g(Do,{url:"/public/destination/background-destination-desktop.jpg",children:I(v0,{children:[I(S0,{children:[I(y0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(w0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const k0=C.div`
   display: flex;
   flex-direction: row;
 `,C0=C.img`
@@ -234,7 +234,7 @@ flex-direction: row;
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function _0(){return I(k0,{children:[g(C0,{src:"/destination/image-moon.png"}),I(E0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MOON"}),g(lt,{marginTop:14,children:"See our planet as you\u2019ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\u2019re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."}),g(P0,{}),I(T0,{children:[I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"384,400 KM"})]}),I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 DAYS"})]})]})]})]})}const N0=C.div`
+`;function _0(){return I(k0,{children:[g(C0,{src:"/public/destination/image-moon.png"}),I(E0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MOON"}),g(lt,{marginTop:14,children:"See our planet as you\u2019ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\u2019re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."}),g(P0,{}),I(T0,{children:[I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"384,400 KM"})]}),I(bs,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 DAYS"})]})]})]})]})}const N0=C.div`
   display: flex;
   flex-direction: row;
 `,R0=C.img`
@@ -264,7 +264,7 @@ flex-direction: row;
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function L0(){return I(N0,{children:[g(R0,{src:"/destination/image-mars.png"}),I(z0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MARS"}),g(lt,{marginTop:14,children:"Don\u2019t forget to pack your hiking boots. You\u2019ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It\u2019s two and a half times the size of Everest!"}),g($0,{}),I(O0,{children:[I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"225 MIL. KM"})]}),I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"9 MONTHS"})]})]})]})]})}const A0=C.div`
+`;function L0(){return I(N0,{children:[g(R0,{src:"/public/destination/image-mars.png"}),I(z0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"MARS"}),g(lt,{marginTop:14,children:"Don\u2019t forget to pack your hiking boots. You\u2019ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It\u2019s two and a half times the size of Everest!"}),g($0,{}),I(O0,{children:[I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"225 MIL. KM"})]}),I(ec,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"9 MONTHS"})]})]})]})]})}const A0=C.div`
   display: flex;
   flex-direction: row;
 `,I0=C.img`
@@ -294,7 +294,7 @@ flex-direction: row;
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function F0(){return I(A0,{children:[g(I0,{src:"/destination/image-europa.png"}),I(M0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"EUROPA"}),g(lt,{marginTop:14,children:"The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover\u2019s dream. With an icy surface, it\u2019s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."}),g(D0,{}),I(j0,{children:[I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"628 MIL. KM"})]}),I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 YEARS"})]})]})]})]})}const U0=C.div`
+`;function F0(){return I(A0,{children:[g(I0,{src:"/public/destination/image-europa.png"}),I(M0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"EUROPA"}),g(lt,{marginTop:14,children:"The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover\u2019s dream. With an icy surface, it\u2019s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."}),g(D0,{}),I(j0,{children:[I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"628 MIL. KM"})]}),I(tc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"3 YEARS"})]})]})]})]})}const U0=C.div`
   display: flex;
   flex-direction: row;
 `,H0=C.img`
@@ -324,7 +324,7 @@ flex-direction: row;
   margin-top: 28px;
   display: flex;
   flex-direction: row;
-`;function Q0(){return I(U0,{children:[g(H0,{src:"/destination/image-titan.png"}),I(B0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"TITAN"}),g(lt,{marginTop:14,children:"The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn."}),g(V0,{}),I(W0,{children:[I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"1.6 BIL. KM"})]}),I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"7 YEARS"})]})]})]})]})}const Y0=C.div`
+`;function Q0(){return I(U0,{children:[g(H0,{src:"/public/destination/image-titan.png"}),I(B0,{children:[g(ie,{fontSize:100,lineHeight:114.6,marginTop:37,children:"TITAN"}),g(lt,{marginTop:14,children:"The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn."}),g(V0,{}),I(W0,{children:[I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"AVG. DISTANCE"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"1.6 BIL. KM"})]}),I(nc,{children:[g(Ae,{fontSize:14,lineHeight:16.8,letterSpacing:2.36,children:"EST. TRAVEL TIME"}),g(ie,{fontSize:28,lineHeight:32.09,marginTop:0,children:"7 YEARS"})]})]})]})]})}const Y0=C.div`
   display: flex;
   flex-direction: column;
   width: 470px;
