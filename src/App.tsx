@@ -21,7 +21,7 @@ function App() {
     <Container>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/space-tourism/" element={<Home />} />
         <Route path="destination" element={<Destination />}>
           <Route path="moon" element={<Moon />} />
           <Route path="mars" element={<Mars />} />

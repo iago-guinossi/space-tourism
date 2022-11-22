@@ -42,7 +42,7 @@ export function NavBar() {
       <Logo src="/assets/logo.svg" />
       <ContainerTransparentNavegation>
         <Button>
-          <Link to={"/"}>
+          <Link to={"/space-tourism/"}>
             <b>00</b> HOME
           </Link>
         </Button>
