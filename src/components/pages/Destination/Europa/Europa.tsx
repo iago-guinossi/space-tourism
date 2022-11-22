@@ -48,7 +48,7 @@ const MiscContainer = styled.div`
 export function Europa() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/destination/image-europa.png" />
+      <PlanetImg src="/public/destination/image-europa.png" />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
           EUROPA

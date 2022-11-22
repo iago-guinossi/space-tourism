@@ -48,7 +48,7 @@ const MiscContainer = styled.div`
 export function Moon() {
   return (
     <ConteudoContainer>
-      <PlanetImg src="/destination/image-moon.png" />
+      <PlanetImg src="/public/destination/image-moon.png" />
       <PlanetContainer>
         <Tittle fontSize={100} lineHeight={114.6} marginTop={37}>
           MOON

@@ -39,7 +39,7 @@ flex-direction: row;
 export function Destination() {
   return (
     <ContainerBackgroundImage
-      url={"/destination/background-destination-desktop.jpg"}
+      url={"/public/destination/background-destination-desktop.jpg"}
     >
       <Container>
         <DestinationContainer>
