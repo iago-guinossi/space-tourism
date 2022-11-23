@@ -30,7 +30,7 @@ type ContainerProps ={
     }
     @media (max-width: 450px){
       background-image: url(${({urlMobile}) => urlMobile});
-      background-size: ${({size}) => (size.width / size.height) > 0.56 ? '100% auto' : 'auto 100%'};
+      background-size: ${({size}) => (size.width / size.height) > 0.45 ? '100% auto' : 'auto 100%'};
       margin: 0;
     }
     `;

@@ -14,7 +14,6 @@ export const Text = styled.span<TextProps>`
     text-align: center;
     font-size: 16px;
   line-height: 28px;
-  color: #D0D6F9;
   }
   @media (max-width: 450px){
     font-size: 15px;

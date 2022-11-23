@@ -13,6 +13,7 @@ const SubContainerNavegation = styled.div`
   display: flex;
   align-items: center;
   padding-top: 40px;
+  z-index: 2;
   @media (max-width: 1000px) {
     width: 100%;
     padding-top: 0;
@@ -25,6 +26,7 @@ const SubContainerNavegation = styled.div`
     position: absolute;
     margin-top: 24px;
     padding-right: 24px;
+    padding-left: 24px;
     height: 40px;
   }
 `;
