@@ -12,11 +12,11 @@ const Container = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
+  align-items: center;
 `;
 
 const SubTittleContainer = styled.div`
   margin-top: 212px;
-  margin-left: 166.5px;
   margin-bottom: 97px;
   margin-right: 283.5px;
 `;
@@ -35,6 +35,7 @@ const ButtonPlanet = styled(Button)`
 const DestinationContainer = styled.div`
 display: flex;
 flex-direction: row;
+margin-left: -204px;  
 `
 
 export function Destination() {

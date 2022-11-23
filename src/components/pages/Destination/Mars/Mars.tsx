@@ -12,7 +12,6 @@ const ConteudoContainer = styled.div`
 const PlanetImg = styled.img`
   width: 445px;
   height: 445px;
-  margin-left: 230px;
   margin-right: 157px;
 `;
 

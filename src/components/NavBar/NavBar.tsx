@@ -9,7 +9,7 @@ const SubContainerNavegation = styled.div`
   margin: 0 0 0 auto;
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  padding-top: 40px;
 `;
 
 const ContainerTransparentNavegation = styled.div`

@@ -10,10 +10,11 @@ import { Titan } from "./components/pages/Destination/Titan";
 import { Technology } from "./components/pages/Technology";
 import { Crew } from "./components/pages/Crew";
 const Container = styled.div`
-  width: 1440px;
-  height: 900px;
+  height: 100vh;
+  width: 100%;
   display: block;
   position: relative;
+  box-sizing: border-box;
 `;
 
 function App() {
