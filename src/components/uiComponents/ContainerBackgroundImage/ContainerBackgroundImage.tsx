@@ -4,6 +4,7 @@ import { useWindowSize } from "../../../hooks/useWindowSize";
 type ContainerProps ={
     url: string;
     urlTablet: string;
+    urlMobile: string;
     size: any;
 }
 
@@ -27,14 +28,17 @@ type ContainerProps ={
       justify-content: flex-start;
       background-size: ${({size}) => (size.width / size.height) > 0.75 ? '100% auto' : 'auto 100%'};
     }
+    @media (max-width: 450px){
+      background-image: url(${({urlMobile}) => urlMobile});
+    }
     `;
 
-export function ContainerBackgroundImage({url, urlTablet, children}:any){
+export function ContainerBackgroundImage({url, urlTablet, children, urlMobile}:any){
   
   const size = useWindowSize()
   
   return(
-    <ContainerBackground url={url} urlTablet={urlTablet} size={size}>
+    <ContainerBackground url={url} urlTablet={urlTablet} size={size} urlMobile={urlMobile}>
       {children}
     </ContainerBackground>
   )

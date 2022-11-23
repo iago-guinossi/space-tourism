@@ -23,4 +23,9 @@ export const Button = styled.button`
     font-size: 14px;
     padding: 0;
   }
+  @media (max-width: 450px){
+    height: 19px;
+    margin-bottom: 32px;
+    padding-left: 32px;
+  }
 `;
