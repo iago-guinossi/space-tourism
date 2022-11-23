@@ -101,7 +101,7 @@ Error generating stack: `+o.message+`
   margin: 0 0 0 auto;
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  padding-top: 40px;
 `,c0=C.div`
   margin-left: auto;
   width: 830px;
@@ -125,10 +125,13 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: 100%;
   background-image: url(${({url:e})=>e});
+  background-repeat: no-repeat;
+  background-size: 100%;
   box-sizing: border-box;
   margin-top: -136px;
   display:flex;
   flex-direction: row;
+  justify-content: center;
 `,Ae=C.span`
   font-family: "Barlow Condensed", sans-serif;
   font-size: ${({fontSize:e})=>e}px;
@@ -189,9 +192,9 @@ opacity: 0.25;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  align-items: center;
 `,x0=C.div`
   margin-top: 212px;
-  margin-left: 166.5px;
   margin-bottom: 97px;
   margin-right: 283.5px;
 `,k0=C.div`
@@ -204,13 +207,13 @@ opacity: 0.25;
 `,C0=C.div`
 display: flex;
 flex-direction: row;
+margin-left: -204px;  
 `;function E0(){return g(Do,{url:w0,children:I(S0,{children:[I(C0,{children:[I(x0,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"01"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"PICK YOUR DESTINATION"})]}),I(k0,{children:[g(yi,{children:g(_t,{to:"moon",children:"MOON "})}),g(yi,{children:g(_t,{to:"mars",children:"MARS"})}),g(yi,{children:g(_t,{to:"europa",children:"EUROPA"})}),g(yi,{children:g(_t,{to:"titan",children:"TITAN"})})]})]}),g(eg,{})]})})}const P0="/space-tourism/assets/image-moon.65df7a68.png",T0=C.div`
   display: flex;
   flex-direction: row;
 `,_0=C.img`
   width: 445px;
   height: 445px;
-  margin-left: 230px;
   margin-right: 157px;
 `,N0=C.div`
   width: 445px;
@@ -240,7 +243,6 @@ flex-direction: row;
 `,A0=C.img`
   width: 445px;
   height: 445px;
-  margin-left: 230px;
   margin-right: 157px;
 `,I0=C.div`
   width: 445px;
@@ -270,7 +272,6 @@ flex-direction: row;
 `,H0=C.img`
   width: 445px;
   height: 445px;
-  margin-left: 230px;
   margin-right: 157px;
 `,B0=C.div`
   width: 445px;
@@ -300,7 +301,6 @@ flex-direction: row;
 `,K0=C.img`
   width: 445px;
   height: 445px;
-  margin-left: 230px;
   margin-right: 157px;
 `,X0=C.div`
   width: 445px;
@@ -419,7 +419,7 @@ flex-direction: row;
   box-sizing: border-box;
 `,T1=C.img`
   position: absolute;
-  margin-top: 52px;
+  bottom: 0;
 `;function _1(){return I(x1,{children:[I(k1,{children:[g(C1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"FLIGHT ENGINEER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"ANOUSHEH ANSARI"}),g(E1,{marginTop:27,children:"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."})]}),g(P1,{children:g(T1,{src:S1})})]})}const N1="/space-tourism/assets/image-douglas-hurley.eefed9f8.png",R1=C.div`
   height: 100%;
   display: flex;
@@ -442,7 +442,7 @@ flex-direction: row;
   box-sizing: border-box;
 `,A1=C.img`
   position: absolute;
-  margin-top: -46px;
+  bottom: 0;
 `;function I1(){return I(R1,{children:[I(z1,{children:[g($1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"COMANDER"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"DOUGLAS HURLEY"}),g(O1,{marginTop:27,children:"Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."})]}),g(L1,{children:g(A1,{src:N1})})]})}const M1="/space-tourism/assets/image-mark-shuttleworth.b3fe36f7.png",D1=C.div`
   height: 100%;
   display: flex;
@@ -464,7 +464,7 @@ flex-direction: row;
   box-sizing: border-box;
 `,B1=C.img`
   position: absolute;
-  margin-top: 14px;
+  bottom: 0;
 `;function V1(){return I(D1,{children:[I(j1,{children:[g(F1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"MISSION SPECIALIST"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"MARK SHUTTLEWORTH"}),g(U1,{marginTop:27,children:"Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."})]}),g(H1,{children:g(B1,{src:M1})})]})}const W1="/space-tourism/assets/image-victor-glover.dfbb7281.png",Q1=C.div`
   height: 100%;
   display: flex;
@@ -487,7 +487,7 @@ flex-direction: row;
   box-sizing: border-box;
 `,Z1=C.img`
   position: absolute;
-  margin-top: 9px;
+  bottom: 0;
 `;function J1(){return I(Q1,{children:[I(Y1,{children:[g(G1,{fontSize:32,lineHeight:36.67,marginTop:154,children:"PILOT"}),g(ie,{fontSize:56,lineHeight:64.18,marginTop:15,children:"VICTOR GLOVER"}),g(K1,{marginTop:27,children:"Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."})]}),g(X1,{children:g(Z1,{src:W1})})]})}const q1="/space-tourism/assets/background-crew-desktop.b41ac858.jpg",b1=C.div`
   width: 1107px;
   height: 594px;
@@ -512,8 +512,9 @@ flex-direction: row;
   display: flex;
   justify-content: space-between;
 `;function nv(){const[e,t]=M.exports.useState(1);function n(i){t(i)}function r(){if(e===1)return g(I1,{});if(e===2)return g(V1,{});if(e===3)return g(J1,{});if(e===4)return g(_1,{})}return g(Do,{url:q1,children:I(b1,{children:[I(ev,{children:[g(Ea,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"02"}),g(Ae,{fontSize:28,lineHeight:33.6,letterSpacing:4.72,children:"MEET YOUR CREW"})]}),r(),I(tv,{children:[g(wi,{number:1,state:e,onClick:()=>n(1)}),g(wi,{number:2,state:e,onClick:()=>n(2)}),g(wi,{number:3,state:e,onClick:()=>n(3)}),g(wi,{number:4,state:e,onClick:()=>n(4)})]})]})})}const rv=C.div`
-  width: 1440px;
-  height: 900px;
+  height: 100vh;
+  width: 100%;
   display: block;
   position: relative;
+  box-sizing: border-box;
 `;function iv(){return I(rv,{children:[g(p0,{}),I(ng,{children:[g(xt,{path:"/space-tourism/",element:g(y0,{})}),I(xt,{path:"/space-tourism/destination",element:g(E0,{}),children:[g(xt,{path:"moon",element:g($0,{})}),g(xt,{path:"mars",element:g(j0,{})}),g(xt,{path:"europa",element:g(Q0,{})}),g(xt,{path:"titan",element:g(q0,{})})]}),g(xt,{path:"/space-tourism/crew",element:g(nv,{})}),g(xt,{path:"/space-tourism/technology",element:g(w1,{})})]})]})}wl.createRoot(document.getElementById("root")).render(g(Xn.StrictMode,{children:g(ug,{children:g(iv,{})})}));
