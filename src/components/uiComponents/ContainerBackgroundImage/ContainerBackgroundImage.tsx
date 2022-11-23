@@ -20,7 +20,7 @@ type ContainerProps ={
     display:flex;
     flex-direction: row;
     justify-content: center;
-    @media(max-width: 768px){
+    @media(max-width: 1000px){
       background-image: url(${({urlTablet}) => urlTablet});
       margin-top: -96px;
       flex-direction: column;

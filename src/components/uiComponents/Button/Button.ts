@@ -18,7 +18,7 @@ export const Button = styled.button`
     border-bottom: solid 3px #ffffff;
     border-top: solid 3px transparent;
   }
-  @media (max-width: 768px){
+  @media (max-width: 1000px){
     margin: 0;
     font-size: 14px;
     padding: 0;

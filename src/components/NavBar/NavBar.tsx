@@ -13,7 +13,7 @@ const SubContainerNavegation = styled.div`
   display: flex;
   align-items: center;
   padding-top: 40px;
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     width: 100%;
     padding-top: 0;
     padding-left: 39px;
@@ -38,7 +38,7 @@ const ContainerTransparentNavegation = styled.div`
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(40.7742px);
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     max-width: 450px;
     justify-content: space-between;
     padding: 0 48px;
@@ -65,13 +65,13 @@ const Rectangle = styled.div`
   margin-left: 111px;
   background-color: #ffffff;
   opacity: 0.25;
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 `;
 
 const NumberButton = styled.b`
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     display: none;
   }
   @media (max-width: 450px) {
