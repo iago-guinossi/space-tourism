@@ -5,7 +5,8 @@ import { SubTittle } from "../../uiComponents/SubTittle";
 import { Text } from "../../uiComponents/Text";
 import { Tittle } from "../../uiComponents/Tittle";
 import backgrounddesktophome from '../../../assets/home/background-home-desktop.jpg'
-import backgroundTablethome from '../../../assets/home/background-home-Tablet.jpg'
+import backgroundTablethome from '../../../assets/home/background-home-tablet.jpg'
+import backgroundMobilehome from '../../../assets/home/background-home-mobile.jpg'
 
 const TextContainer = styled.div`
   display: flex;
@@ -22,6 +23,11 @@ const TextContainer = styled.div`
     flex-shrink: 0;
     justify-content: flex-start;
     height: 334px;
+  }
+  @media (max-width: 450px){
+    padding-top: 112px;
+    width: 327px;
+    height: 276px;
   }
 `;
 
@@ -52,6 +58,11 @@ const ButtonExplorer = styled.button`
     width: 242px;
     margin-bottom: 0;
   }
+  @media (max-width: 450px){
+    width: 150px;
+    height: 150px;
+    margin-top: 81px;
+  }
 `;
 const LinkExplore = styled(Link)`
   font-family: "Bellefair", serif;
@@ -59,6 +70,12 @@ const LinkExplore = styled(Link)`
   line-height: 36.67px;
   letter-spacing: 2px;
   color: rgba(11, 13, 23, 1);
+  @media (max-width: 450px){
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    padding-left: 22px;
+      }
 `;
 
 const SubTittleHome = styled(SubTittle)`
@@ -68,11 +85,21 @@ const SubTittleHome = styled(SubTittle)`
     letter-spacing: 3.375px;
     line-height: 24px;
   }
+  @media (max-width: 450px){
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
 `
 
 const TittleHome = styled(Tittle)`
   @media (max-width: 768px){
     line-height: 150px;
+  }
+  @media (max-width: 450px){
+    font-size: 80px;
+    line-height: 100px;
+    margin-top: 16px;
   }
 `
 
@@ -81,6 +108,7 @@ export function Home() {
     <ContainerBackgroundImage
       url={backgrounddesktophome}
       urlTablet={backgroundTablethome}
+      urlMobile={backgroundMobilehome}
     >
       <TextContainer>
         <SubTittleHome fontSize={28} lineHeight={33.6} letterSpacing={4.72}>SO, YOU WANT TO TRAVEL TO</SubTittleHome>

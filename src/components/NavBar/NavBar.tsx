@@ -13,8 +13,6 @@ const SubContainerNavegation = styled.div`
   display: flex;
   align-items: center;
   padding-top: 40px;
-  position: absolute;
-  top: 96px;
   @media (max-width: 768px) {
     width: 100%;
     padding-top: 0;
@@ -24,7 +22,10 @@ const SubContainerNavegation = styled.div`
     justify-content: space-between;
   }
   @media (max-width: 450px) {
+    position: absolute;
+    margin-top: 24px;
     padding-right: 24px;
+    height: 40px;
   }
 `;
 
@@ -51,6 +52,10 @@ const ContainerTransparentNavegation = styled.div`
 const Logo = styled.img`
   width: 48px;
   height: 48px;
+  @media (max-width: 450px){
+    height: 40px;
+    width: 40px;
+  }
 `;
 
 const Rectangle = styled.div`
@@ -97,7 +102,7 @@ const SideBar = styled.div`
   background-color: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.7742px);
   right: 0px;
-  top: 0px;
+  top: -24px;
 `;
 
 const ButtonClose = styled.div`
@@ -126,22 +131,22 @@ export function NavBar() {
       {state ? (
         <SideBar>
           <ButtonClose onClick={() => handleClick()}/>
-          <Button>
+          <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/"}>
               <NumberButton>00</NumberButton> HOME
             </Link>
           </Button>
-          <Button>
+          <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/destination/moon"}>
               <NumberButton>01</NumberButton> DESTINATION
             </Link>
           </Button>
-          <Button>
+          <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/crew"}>
               <NumberButton>02</NumberButton> CREW
             </Link>
           </Button>
-          <Button>
+          <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/technology"}>
               <NumberButton>03</NumberButton> TECHNOLOGY
             </Link>

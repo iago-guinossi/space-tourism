@@ -16,4 +16,9 @@ export const Text = styled.span<TextProps>`
   line-height: 28px;
   color: #D0D6F9;
   }
+  @media (max-width: 450px){
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 16px;
+  }
 `;
