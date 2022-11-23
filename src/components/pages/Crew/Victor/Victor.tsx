@@ -35,7 +35,7 @@ const ImgContainer = styled.div`
 
 const CrewImg = styled.img`
   position: absolute;
-  margin-top: 9px;
+  bottom: 0;
 `;
 
 export function Victor() {

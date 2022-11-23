@@ -34,7 +34,7 @@ const ImgContainer = styled.div`
 
 const CrewImg = styled.img`
   position: absolute;
-  margin-top: 14px;
+  bottom: 0;
 `;
 
 export function Mark() {
