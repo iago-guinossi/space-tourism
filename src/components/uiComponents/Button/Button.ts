@@ -18,4 +18,9 @@ export const Button = styled.button`
     border-bottom: solid 3px #ffffff;
     border-top: solid 3px transparent;
   }
+  @media (max-width: 768px){
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+  }
 `;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 type ContainerProps ={
     url: string;
+    urlTablet: string; 
 }
 
 export const ContainerBackgroundImage = styled.div<ContainerProps>`
@@ -15,4 +16,11 @@ export const ContainerBackgroundImage = styled.div<ContainerProps>`
   display:flex;
   flex-direction: row;
   justify-content: center;
+  @media(max-width: 768px){
+    background-image: url(${({urlTablet}) => urlTablet});
+    margin-top: -96px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
 `;

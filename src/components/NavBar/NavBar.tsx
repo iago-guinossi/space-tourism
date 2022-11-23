@@ -10,6 +10,11 @@ const SubContainerNavegation = styled.div`
   display: flex;
   align-items: center;
   padding-top: 40px;
+  @media(max-width: 768px){
+    width: 729px;
+    padding-top: 0;
+  }
+    
 `;
 
 const ContainerTransparentNavegation = styled.div`
@@ -21,6 +26,12 @@ const ContainerTransparentNavegation = styled.div`
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(40.7742px);
+  @media(max-width: 768px){
+    width: 450px;
+    justify-content: space-around;
+    padding: 0 48px;
+    box-sizing: border-box;
+  }
 `;
 
 const Logo = styled.img`
@@ -35,7 +46,15 @@ const Rectangle = styled.div`
   margin-left: 111px;
   background-color: #ffffff;
   opacity: 0.25;
+  @media(max-width: 768px){
+    display:none;
+  }
 `;
+
+const NumberButton = styled.b`
+@media (max-width: 768px){
+  display: none;
+}`
 
 export function NavBar() {
   return (
@@ -44,22 +63,22 @@ export function NavBar() {
       <ContainerTransparentNavegation>
         <Button>
           <Link to={"/space-tourism/"}>
-            <b>00</b> HOME
+            <NumberButton>00</NumberButton> HOME
           </Link>
         </Button>
         <Button>
           <Link to={"/space-tourism/destination/moon"}>
-            <b>01</b> DESTINATION
+            <NumberButton>01</NumberButton> DESTINATION
           </Link>
         </Button>
         <Button>
           <Link to={"/space-tourism/crew"}>
-            <b>02</b> CREW
+            <NumberButton>02</NumberButton> CREW
           </Link>
         </Button>
         <Button>
           <Link to={"/space-tourism/technology"}>
-            <b>03</b> TECHNOLOGY{" "}
+            <NumberButton>03</NumberButton> TECHNOLOGY
           </Link>
         </Button>
       </ContainerTransparentNavegation>
