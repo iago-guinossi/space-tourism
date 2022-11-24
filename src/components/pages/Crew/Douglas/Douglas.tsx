@@ -34,7 +34,11 @@ const TextContainer = styled.div`
     height: 182px;
   }
   @media (max-width: 460px) {
+    align-items: center;
     width: 450px;
+  }
+  @media (max-width: 450px){
+    max-width: 327px;
   }
 `;
 
@@ -46,6 +50,11 @@ const TittleCrew = styled(Tittle)`
     text-align: center;
     margin-top: 60px;
   }
+  @media (max-width: 450px) {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 74px;
+  }
 `;
 
 const CrewText = styled(Text)`
@@ -55,6 +64,11 @@ const CrewText = styled(Text)`
     line-height: 28px;
     text-align: center;
     margin-top: 16px;
+  }
+  @media (max-width: 450px) {
+    max-width: 327px;
+    font-size: 15px;
+    line-height: 25px;
   }
 `;
 
@@ -75,6 +89,7 @@ const ImgContainer = styled.div`
   @media (max-width: 450px) {
     width: 327px;
     height: 223px;
+    position: relative;
   }
 `;
 
@@ -91,7 +106,7 @@ const CrewImg = styled.img<{ size: any }>`
       max-height: ${({ size }) => size.height - 452}px;
     }
   }
-  @media (max-width: 450px){
+  @media (max-width: 450px) {
     position: relative;
     height: 100%;
   }
@@ -103,6 +118,21 @@ const TittleName = styled(Tittle)`
     line-height: 46px;
     text-align: center;
     margin-top: 6px;
+  }
+  @media (max-width: 450px) {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 8px;
+  }
+`;
+
+const Rectangle = styled.div`
+  @media (max-width: 450px) {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #383b4b;
   }
 `;
 
@@ -125,6 +155,7 @@ export function Douglas() {
       </TextContainer>
       <ImgContainer>
         <CrewImg src={imgDouglas} size={size} />
+        <Rectangle />
       </ImgContainer>
     </ContentContainer>
   );
