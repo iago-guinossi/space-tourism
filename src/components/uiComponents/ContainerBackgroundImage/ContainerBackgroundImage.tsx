@@ -20,7 +20,6 @@ type ContainerProps ={
     display:flex;
     flex-direction: row;
     justify-content: center;
-    overflow: scroll;
     @media(max-width: 1000px){
       background-image: url(${({urlTablet}) => urlTablet});
       margin-top: -96px;
@@ -33,6 +32,7 @@ type ContainerProps ={
       background-image: url(${({urlMobile}) => urlMobile});
       background-size: ${({size}) => (size.width / size.height) > 0.45 ? '100% auto' : 'auto 100%'};
       margin: 0;
+      overflow: scroll;
     }
     `;
 

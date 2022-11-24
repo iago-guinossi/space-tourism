@@ -29,9 +29,10 @@ const SubContainerNavegation = styled.div`
     padding-left: 24px;
     height: 40px;
   }
-`;
+  `;
 
 const ContainerTransparentNavegation = styled.div`
+z-index: 2;
   margin-left: auto;
   width: 830px;
   height: 100%;
