@@ -7,6 +7,8 @@ import { Capsule } from "./Capsule";
 import { Spaceport } from "./Spaceport";
 import { Vehicle } from "./Vehicle";
 import imgBackgroundDesktop from "../../../assets/technology/background-technology-desktop.jpg";
+import imgBackgroundTablet from "../../../assets/technology/background-technology-tablet.jpg";
+import imgBackgroundMobile from "../../../assets/technology/background-technology-mobile.jpg";
 
 type RoundedButtonProps = {
   number: number;
@@ -16,6 +18,11 @@ type RoundedButtonProps = {
 const SubTittleContainer = styled.div`
   display: flex;
   margin-top: 212px;
+  @media (max-width: 1000px) {
+    margin: 0;
+    padding-top: 136px;
+    padding-left: 38.5px;
+  }
 `;
 
 const ConteudoContainer = styled.div`
@@ -23,6 +30,15 @@ const ConteudoContainer = styled.div`
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  @media (max-width: 1440px) {
+    padding-top: 137px;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
 `;
 
 const ButtonContainer = styled.div`
@@ -30,6 +46,13 @@ const ButtonContainer = styled.div`
   flex-direction: column;
   margin-right: 80px;
   margin-bottom: -32px;
+  @media (max-width: 1000px) {
+    flex-direction: row;
+    margin: 0;
+    padding-top: 426px;
+    width: 210px;
+    justify-content: space-between;
+  }
 `;
 
 const NumberButton = styled.span`
@@ -43,6 +66,14 @@ const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  @media (max-width: 1440px) {
+    margin-left: 0;
+    padding-left: 165px;
+  }
+  @media (max-width: 1000px) {
+    padding: 0;
+    width: 100%;
+  }
 `;
 
 const RoundedButton = styled.button<RoundedButtonProps>`
@@ -60,6 +91,37 @@ const RoundedButton = styled.button<RoundedButtonProps>`
   &:hover {
     border: 1px solid rgba(255, 255, 255, 1);
   }
+  @media (max-width: 1000px){
+    height: 60px;
+    width: 60px;
+  }
+`;
+
+const SubTittleNumberTech = styled(SubTittleNumber)`
+  @media (max-width: 1000px) {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.38px;
+    margin-right: 16px;
+  }
+  @media (max-width: 450px) {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+`;
+
+const SubTittleTech = styled(SubTittle)`
+  @media (max-width: 1000px) {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.38px;
+  }
+  @media (max-width: 450px) {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
 `;
 
 export function Technology() {
@@ -76,15 +138,23 @@ export function Technology() {
   }
 
   return (
-    <ContainerBackgroundImage url={imgBackgroundDesktop}>
+    <ContainerBackgroundImage
+      url={imgBackgroundDesktop}
+      urlTablet={imgBackgroundTablet}
+      urlMobile={imgBackgroundMobile}
+    >
       <MainContainer>
         <SubTittleContainer>
-          <SubTittleNumber fontSize={28} lineHeight={33.6} letterSpacing={4.72}>
+          <SubTittleNumberTech
+            fontSize={28}
+            lineHeight={33.6}
+            letterSpacing={4.72}
+          >
             03
-          </SubTittleNumber>
-          <SubTittle fontSize={28} lineHeight={33.6} letterSpacing={4.72}>
+          </SubTittleNumberTech>
+          <SubTittleTech fontSize={28} lineHeight={33.6} letterSpacing={4.72}>
             SPACE LAUNCH 101
-          </SubTittle>
+          </SubTittleTech>
         </SubTittleContainer>
         <ConteudoContainer>
           <ButtonContainer>
