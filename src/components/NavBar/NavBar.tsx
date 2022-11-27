@@ -5,6 +5,7 @@ import imgLogo from "../../assets/logo.svg";
 import imgMenu from "../../assets/icon-hamburger.svg";
 import imgClose from "../../assets/icon-close.svg";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const SubContainerNavegation = styled.div`
   max-width: 1385px;
@@ -74,6 +75,7 @@ const Rectangle = styled.div`
 `;
 
 const NumberButton = styled.b`
+  margin-right: 11px;
   @media (max-width: 1000px) {
     display: none;
   }
@@ -133,8 +135,43 @@ const Footer = styled.a`
     text-decoration: none;
     cursor: pointer;
     text-align: center;
-    }
+  }
 `;
+
+const LinkAct = styled(NavLink)<{activeclassname: any}>`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  background-color: transparent;
+  border: none;
+  margin: 0 24px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  text-decoration: none;
+  &:hover {
+    border-bottom: solid 3px rgba(255, 255, 255, 0.5);
+    border-top: solid 3px transparent;
+  }
+  &.${props => props.activeclassname}{
+    border-bottom: solid 3px #ffffff;
+    border-top: solid 3px transparent;
+  }
+  @media (max-width: 1000px){
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+  }
+  @media (max-width: 450px){
+    height: 19px;
+    margin-bottom: 32px;
+    padding-left: 32px;
+  }
+`;
+
 
 export function NavBar() {
   const [state, setState] = useState(false);
@@ -151,22 +188,22 @@ export function NavBar() {
           <ButtonClose onClick={() => handleClick()} />
           <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/"}>
-              <NumberButton>00</NumberButton> HOME
+              <NumberButton>00</NumberButton>HOME
             </Link>
           </Button>
           <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/destination/moon"}>
-              <NumberButton>01</NumberButton> DESTINATION
+              <NumberButton>01</NumberButton>DESTINATION
             </Link>
           </Button>
           <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/crew"}>
-              <NumberButton>02</NumberButton> CREW
+              <NumberButton>02</NumberButton>CREW
             </Link>
           </Button>
           <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/technology"}>
-              <NumberButton>03</NumberButton> TECHNOLOGY
+              <NumberButton>03</NumberButton>TECHNOLOGY
             </Link>
           </Button>
           <Footer
@@ -180,26 +217,18 @@ export function NavBar() {
         <ButtonMenu onClick={() => handleClick()} />
       )}
       <ContainerTransparentNavegation>
-        <Button>
-          <Link to={"/space-tourism/"}>
-            <NumberButton>00</NumberButton> HOME
-          </Link>
-        </Button>
-        <Button>
-          <Link to={"/space-tourism/destination/moon"}>
+        <LinkAct activeclassname="active" to={"space-tourism/"}>
+          <NumberButton>00</NumberButton> HOME
+        </LinkAct>
+        <LinkAct activeclassname="active" to={"/space-tourism/destination/moon"}>
             <NumberButton>01</NumberButton> DESTINATION
-          </Link>
-        </Button>
-        <Button>
-          <Link to={"/space-tourism/crew"}>
+          </LinkAct>
+        <LinkAct activeclassname="active" to={"/space-tourism/crew"}>
             <NumberButton>02</NumberButton> CREW
-          </Link>
-        </Button>
-        <Button>
-          <Link to={"/space-tourism/technology"}>
+          </LinkAct>
+        <LinkAct activeclassname="active" to={"/space-tourism/technology"}>
             <NumberButton>03</NumberButton> TECHNOLOGY
-          </Link>
-        </Button>
+          </LinkAct>
       </ContainerTransparentNavegation>
       <Rectangle />
     </SubContainerNavegation>

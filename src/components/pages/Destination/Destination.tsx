@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../../uiComponents/Button";
 import { ContainerBackgroundImage } from "../../uiComponents/ContainerBackgroundImage";
@@ -42,37 +42,34 @@ const SubTittleContainer = styled.div`
 `;
 
 const NavContainer = styled.div`
-  width: 304.5px;
-  height: 34px;
-  padding-top: 310px;
-  align-self: flex-end;
-  z-index: 1;
-  @media (max-width: 1440px) {
-    padding-right: 303.5px;
-  }
-  @media (max-width: 1288px) {
-    padding-right: 0;
-  }
-  @media (max-width: 1000px) {
+width: 303.5px;
+align-self: flex-end;
+z-index: 1;
+padding-top: 310px;
+@media (max-width: 1440px) {
+  padding-right: 303.5px;
+}
+@media (max-width: 1288px) {
+  padding-right: 0;
+  @media (max-width: 1000px){
+    width: 285.5px;
     align-self: center;
     padding-top: 413px;
-    width: 285.5px;
-    display: flex;
-    justify-content: space-between;
   }
   @media (max-width: 450px) {
     padding-top: 228px;
   }
-`;
+}
+`
 
-const ButtonPlanet = styled(Button)`
-  margin: 0 18px 0 0;
+const SubNavContainer = styled.div`
+  width: 285.5px;
   height: 34px;
+  display: flex;
   @media (max-width: 1000px) {
-    margin: 0;
-  }
-  @media (max-width: 450px) {
-    padding: 0;
+    width: 285.5px;
+    display: flex;
+    justify-content: space-between;
   }
 `;
 
@@ -126,16 +123,38 @@ const SubtittleDest = styled(SubTittle)`
   }
 `;
 
-const LinkDest = styled(Link)`
+const LinkDest = styled(NavLink)<{ activeclassname: any }>`
+  display: flex;
+  align-items: center;
+  margin: 0 18px 0 0;
+  height: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  &:hover {
+    border-bottom: solid 3px rgba(255, 255, 255, 0.5);
+    border-top: solid 3px transparent;
+  }
+  &.${(props) => props.activeclassname} {
+    border-bottom: solid 3px #ffffff;
+    border-top: solid 3px transparent;
+  }
   @media (max-width: 1000px) {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
+    margin: 0;
   }
   @media (max-width: 450px) {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 2.3625px;
+    padding: 0;
   }
 `;
 
@@ -161,18 +180,20 @@ export function Destination() {
             </SubtittleDest>
           </SubTittleContainer>
           <NavContainer>
-            <ButtonPlanet>
-              <LinkDest to={"moon"}>MOON </LinkDest>
-            </ButtonPlanet>
-            <ButtonPlanet>
-              <Link to={"mars"}>MARS</Link>
-            </ButtonPlanet>
-            <ButtonPlanet>
-              <Link to={"europa"}>EUROPA</Link>
-            </ButtonPlanet>
-            <ButtonPlanet>
-              <Link to={"titan"}>TITAN</Link>
-            </ButtonPlanet>
+          <SubNavContainer>
+            <LinkDest activeclassname="active" to={"moon"}>
+              MOON{" "}
+            </LinkDest>
+            <LinkDest activeclassname="active" to={"mars"}>
+              MARS
+            </LinkDest>
+            <LinkDest activeclassname="active" to={"europa"}>
+              EUROPA
+            </LinkDest>
+            <LinkDest activeclassname="active" to={"titan"}>
+              TITAN
+            </LinkDest>
+          </SubNavContainer>
           </NavContainer>
         </DestinationContainer>
         <Outlet />
