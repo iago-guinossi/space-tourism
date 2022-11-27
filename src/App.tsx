@@ -17,6 +17,19 @@ const Container = styled.div`
   box-sizing: border-box;
 `;
 
+const Footer = styled.a`
+  font-family: "Barlow", sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: rgba(208, 214, 249, 1);
+  text-decoration: none;
+  cursor: pointer;
+  @media (max-width: 450px){
+    display: none;
+  }
+`;
+
 function App() {
   return (
     <Container>
@@ -32,6 +45,12 @@ function App() {
         <Route path="/space-tourism/crew" element={<Crew />} />
         <Route path="/space-tourism/technology" element={<Technology />} />
       </Routes>
+      <Footer
+        href="https://github.com/iago-guinossi/space-tourism"
+        className="textoBase"
+      >
+        Desenvolvido por Iago Guinossi 2022.
+      </Footer>
     </Container>
   );
 }

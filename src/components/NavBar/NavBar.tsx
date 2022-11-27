@@ -29,10 +29,10 @@ const SubContainerNavegation = styled.div`
     padding-left: 24px;
     height: 40px;
   }
-  `;
+`;
 
 const ContainerTransparentNavegation = styled.div`
-z-index: 2;
+  z-index: 2;
   margin-left: auto;
   width: 830px;
   height: 100%;
@@ -55,7 +55,7 @@ z-index: 2;
 const Logo = styled.img`
   width: 48px;
   height: 48px;
-  @media (max-width: 450px){
+  @media (max-width: 450px) {
     height: 40px;
     width: 40px;
   }
@@ -121,6 +121,21 @@ const ButtonClose = styled.div`
   flex-shrink: 0;
 `;
 
+const Footer = styled.a`
+  display: none;
+  @media (max-width: 450px) {
+    display: block;
+    font-family: "Barlow", sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgba(208, 214, 249, 1);
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    }
+`;
+
 export function NavBar() {
   const [state, setState] = useState(false);
 
@@ -133,7 +148,7 @@ export function NavBar() {
       <Logo src={imgLogo} />
       {state ? (
         <SideBar>
-          <ButtonClose onClick={() => handleClick()}/>
+          <ButtonClose onClick={() => handleClick()} />
           <Button onClick={() => handleClick()}>
             <Link to={"/space-tourism/"}>
               <NumberButton>00</NumberButton> HOME
@@ -154,8 +169,16 @@ export function NavBar() {
               <NumberButton>03</NumberButton> TECHNOLOGY
             </Link>
           </Button>
+          <Footer
+            href="https://github.com/iago-guinossi/space-tourism"
+            className="textoBase"
+          >
+            Desenvolvido por Iago Guinossi 2022.
+          </Footer>
         </SideBar>
-      ) : <ButtonMenu onClick={() => handleClick()}/>}
+      ) : (
+        <ButtonMenu onClick={() => handleClick()} />
+      )}
       <ContainerTransparentNavegation>
         <Button>
           <Link to={"/space-tourism/"}>
