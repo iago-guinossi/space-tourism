@@ -17,14 +17,22 @@ const TextContainer = styled.div`
     margin: 0;
     text-align: center;
   }
-  @media (max-width: 460px){
+  @media (max-width: 460px) {
     width: 450px;
+  }
+  @media (max-width: 450px) {
+    width: 327px;
+    height: 220px;
   }
 `;
 
 const SubTextContainer = styled.div`
   margin-top: 17px;
   width: 444px;
+  @media (max-width: 450px) {
+    width: 327px;
+    margin: 0;
+  }
 `;
 
 const Img = styled.img<{ size: any }>`
@@ -45,6 +53,10 @@ const Img = styled.img<{ size: any }>`
     height: 310px;
     top: 60px;
   }
+  @media (max-width: 450px) {
+    height: 170px;
+    top: 32px;
+  }
 `;
 
 const TittleTech = styled(Tittle)`
@@ -52,6 +64,11 @@ const TittleTech = styled(Tittle)`
     font-size: 40px;
     line-height: 46px;
     margin-top: 16px;
+  }
+  @media (max-width: 450px) {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 9px;
   }
 `;
 
@@ -61,6 +78,19 @@ const TextTech = styled(Text)`
     line-height: 28px;
     margin-top: 16px;
   }
+  @media (max-width: 450px) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+`;
+
+const SubTittleTech = styled(SubTittle)`
+  @media (max-width: 450px) {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2.3625px;
+  }
 `;
 
 export function Vehicle() {
@@ -68,9 +98,9 @@ export function Vehicle() {
   return (
     <>
       <TextContainer>
-        <SubTittle fontSize={16} lineHeight={19.2} letterSpacing={2.7}>
+        <SubTittleTech fontSize={16} lineHeight={19.2} letterSpacing={2.7}>
           THE TERMINOLOGY…
-        </SubTittle>
+        </SubTittleTech>
         <TittleTech fontSize={56} lineHeight={64.18} marginTop={11}>
           LAUNCH VEHICLE
         </TittleTech>
@@ -79,7 +109,7 @@ export function Vehicle() {
             A launch vehicle or carrier rocket is a rocket-propelled vehicle
             used to carry a payload from Earth's surface to space, usually to
             Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
-            in operation. Standing 150 metres tall, it's quite an <br/>awe-inspiring
+            in operation. Standing 150 metres tall, it's quite an aweinspiring
             sight on the launch pad!
           </TextTech>
         </SubTextContainer>

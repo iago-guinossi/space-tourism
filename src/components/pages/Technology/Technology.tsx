@@ -23,6 +23,11 @@ const SubTittleContainer = styled.div`
     padding-top: 136px;
     padding-left: 38.5px;
   }
+  @media (max-width: 450px) {
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 88px;
+  }
 `;
 
 const ConteudoContainer = styled.div`
@@ -53,6 +58,10 @@ const ButtonContainer = styled.div`
     width: 210px;
     justify-content: space-between;
   }
+  @media (max-width: 450px) {
+    padding-top: 236px;
+    width: 152px;
+  }
 `;
 
 const NumberButton = styled.span`
@@ -60,6 +69,13 @@ const NumberButton = styled.span`
   font-size: 32px;
   line-height: 37px;
   letter-spacing: 2px;
+  @media (max-width: 450px) {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-right: 2px;
+  }
 `;
 
 const MainContainer = styled.div`
@@ -91,9 +107,13 @@ const RoundedButton = styled.button<RoundedButtonProps>`
   &:hover {
     border: 1px solid rgba(255, 255, 255, 1);
   }
-  @media (max-width: 1000px){
+  @media (max-width: 1000px) {
     height: 60px;
     width: 60px;
+  }
+  @media (max-width: 450px) {
+    width: 40px;
+    height: 40px;
   }
 `;
 
@@ -106,7 +126,7 @@ const SubTittleNumberTech = styled(SubTittleNumber)`
   }
   @media (max-width: 450px) {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 19.2px;
     letter-spacing: 2.7px;
   }
 `;
@@ -119,7 +139,7 @@ const SubTittleTech = styled(SubTittle)`
   }
   @media (max-width: 450px) {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 19.2px;
     letter-spacing: 2.7px;
   }
 `;
