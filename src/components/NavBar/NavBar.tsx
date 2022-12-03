@@ -182,7 +182,7 @@ export function NavBar() {
 
   return (
     <SubContainerNavegation>
-      <Logo src={imgLogo} />
+      <Logo src={imgLogo} alt="logo"/>
       {state ? (
         <SideBar>
           <ButtonClose onClick={() => handleClick()} />
